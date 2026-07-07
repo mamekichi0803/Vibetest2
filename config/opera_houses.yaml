@@ -1,0 +1,40 @@
+# Major opera houses to track.
+#
+# Each entry is fetched with the generic JSON-LD scraper
+# (opera_schedule_tracker/sources/generic_jsonld.py), which reads
+# schema.org Event structured data embedded in the page.
+#
+# Notes:
+# - "what's on" / season page URLs are sometimes season-specific (e.g.
+#   metopera.org's "2025-26-season" path) and may need to be bumped once a
+#   year when the venue publishes its next season.
+# - If a house's page does not expose JSON-LD (or changes its markup so the
+#   generic parser no longer recognises it), the run logs a warning for
+#   that source and continues with the others rather than failing outright.
+#   Add a dedicated parser under opera_schedule_tracker/sources/ if you need
+#   tighter coverage for a specific house.
+
+opera_houses:
+  - name: "Metropolitan Opera"
+    url: "https://www.metopera.org/season/2025-26-season/"
+
+  - name: "Royal Opera House"
+    url: "https://www.roh.org.uk/tickets-and-events"
+
+  - name: "Wiener Staatsoper"
+    url: "https://www.wiener-staatsoper.at/en/spielplan/"
+
+  - name: "Teatro alla Scala"
+    url: "https://www.teatroallascala.org/en/season/calendar-page.html"
+
+  - name: "Opera national de Paris"
+    url: "https://www.operadeparis.fr/en/programmation"
+
+  - name: "Bayerische Staatsoper"
+    url: "https://www.staatsoper.de/en/whats-on.html"
+
+  - name: "Semperoper Dresden"
+    url: "https://www.semperoper.de/en/spielplan-tickets"
+
+  - name: "Deutsche Oper Berlin"
+    url: "https://www.deutscheoperberlin.de/en_EN/schedule"
