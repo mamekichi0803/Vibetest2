@@ -5,30 +5,37 @@ Source: https://www.wiener-staatsoper.at/en/calendar/<year>/<month>/
 generates URLs for the current month plus ``months_ahead`` following months
 and fetches each.
 
-Based on a screenshot of .../en/calendar/2026/september/ (2026-07-08), the
-page shows a "<season start>/<season end short> Season" header (e.g.
-"2026/27 Season") and a list of events, each shaped like:
+Confirmed against real rendered text from a GitHub Actions run
+(2026-07-08, .../en/calendar/2026/september/): the page shows a
+"<season start>/<season end short> Season" header (e.g. "2026/27 Season")
+and a list of events, each shaped like:
 
     Fri
-    04
-    Sep
-    19:00-22:30
-
+    04 Sep
+    19:00—22:30
     GIUSEPPE VERDI
     DON CARLO
-    OPERA   Main Stage
+    OPERA Main Stage
+
     with Vittorio Grigolo, Étienne Dupuis, ...
-    Conductor: Pier Giorgio Morandi
+    Show full cast
+    BUY TICKETS
+    DETAILS
+    ...ticket price rows...
 
-i.e. weekday / day-of-month / month abbreviation / time range, then a
-composer line, a title line, then category/venue/cast/conductor lines we
-don't need for diffing. Months with nothing scheduled show a "There are no
-performances in <month(s)>" message instead, which this parser treats as
-zero performances rather than an error.
+i.e. weekday / "<day> <month abbreviation>" (on one line — a first
+screenshot-only-derived version of this parser wrongly assumed those were
+two separate lines) / time range (using an em dash "—"), then a composer
+line, a title line, a "<CATEGORY> <venue>" line, then cast/ticket noise we
+don't need for diffing.
 
-This has not been verified against the live site's actual markup (only a
-screenshot) — if extraction yields zero performances for a month that
-should have some, check the logged warning and inspect a fresh render.
+Months with nothing scheduled show a "There are no performances in
+<month(s)>" message instead (confirmed for July/August 2026), which parses
+to zero performances rather than an error. Months outside what the site
+considers valid (also observed for July/August 2026, despite the "no
+performances" messaging existing at the base /en/calendar/ URL) 404 at the
+dedicated month URL; that also just yields zero performances here rather
+than raising, since the 404 page's text matches none of our patterns.
 """
 
 from __future__ import annotations
@@ -44,8 +51,9 @@ from opera_schedule_tracker.models import Performance
 logger = logging.getLogger(__name__)
 
 WEEKDAY_RE = re.compile(r"^(Mon|Tue|Wed|Thu|Fri|Sat|Sun)$")
-DAY_RE = re.compile(r"^\d{1,2}$")
-MONTH_ABBR_RE = re.compile(r"^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)$")
+DAY_MONTH_RE = re.compile(
+    r"^(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)$"
+)
 TIME_RANGE_RE = re.compile(r"^(\d{1,2}:\d{2})\s*[-–—]\s*(\d{1,2}:\d{2})$")
 SEASON_RE = re.compile(r"^(\d{4})/(\d{2})\s+Season$")
 KNOWN_VENUE_HINTS = ("Main Stage",)
@@ -100,18 +108,18 @@ def parse_calendar_text(text: str, opera_house: str, page_url: str) -> list[Perf
             i += 1
             continue
 
+        day_month_match = DAY_MONTH_RE.match(lines[i + 1]) if i + 1 < len(lines) else None
         if (
             WEEKDAY_RE.match(lines[i])
-            and i + 3 < len(lines)
-            and DAY_RE.match(lines[i + 1])
-            and MONTH_ABBR_RE.match(lines[i + 2])
-            and TIME_RANGE_RE.match(lines[i + 3])
+            and i + 2 < len(lines)
+            and day_month_match
+            and TIME_RANGE_RE.match(lines[i + 2])
         ):
-            day = int(lines[i + 1])
-            month_abbr = lines[i + 2]
-            time_match = TIME_RANGE_RE.match(lines[i + 3])
+            day = int(day_month_match.group(1))
+            month_abbr = day_month_match.group(2)
+            time_match = TIME_RANGE_RE.match(lines[i + 2])
             start_time = time_match.group(1)
-            i += 4
+            i += 3
 
             year = _resolve_year(season_start_year, month_abbr)
             if year is None:

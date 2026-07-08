@@ -7,53 +7,67 @@ from opera_schedule_tracker.sources.wiener_staatsoper import (
     parse_calendar_text,
 )
 
-# Modeled on a screenshot of
-# https://www.wiener-staatsoper.at/en/calendar/2026/september/ taken
-# 2026-07-08. Not verified against live markup.
+# Modeled on the actual rendered text captured from a GitHub Actions run
+# (2026-07-08) fetching https://www.wiener-staatsoper.at/en/calendar/2026/september/.
 SEPTEMBER_TEXT = """
 2026/27 Season
-
-SEP OCT NOV DEC JAN FEB MAR APR
-
+Search
+FILTER
+SEP
+OCT
+NOV
+DEC
+JAN
+FEB
+MAR
+APR
+MAY
+JUN
+Number of events listed below: 34
 Fri
-04
-Sep
-19:00-22:30
-
+04 Sep
+19:00—22:30
 GIUSEPPE VERDI
 DON CARLO
-OPERA
-Main Stage
-with Vittorio Grigolo, Étienne Dupuis, Ain Anger
-Conductor: Pier Giorgio Morandi
+OPERA Main Stage
+
+with Vittorio Grigolo, Étienne Dupuis, Ain Anger, Conductor: Pier Giorgio Morandi
+
+Show full cast
+BUY TICKETS
+DETAILS
+Few tickets left
+Area 1
+252 €
 
 Sat
-05
-Sep
-18:00-21:00
-
+05 Sep
+18:00—21:00
 WOLFGANG AMADEUS MOZART
 THE MAGIC FLUTE
-OPERA
-Main Stage
-with Someone Else
-Conductor: Another Conductor
+OPERA Main Stage
+
+with Someone Else, Conductor: Another Conductor
+
+Show full cast
+BUY TICKETS
+DETAILS
 """
 
 JANUARY_TEXT = """
 2026/27 Season
 
 Thu
-14
-Jan
-19:30-22:00
-
+14 Jan
+19:30—22:00
 GIACOMO PUCCINI
 TOSCA
-OPERA
-Main Stage
-with A Singer
-Conductor: A Conductor
+OPERA Main Stage
+
+with A Singer, Conductor: A Conductor
+
+Show full cast
+BUY TICKETS
 """
 
 NO_PERFORMANCES_TEXT = """

@@ -4,39 +4,42 @@ Source: https://www.metopera.org/calendar/ — renders its schedule via
 JavaScript, so opera_schedule_tracker.browser (headless Chromium) is
 needed just to get the schedule into the DOM at all, before any parsing.
 
-Based on screenshots (2026-07-08), the page shows a month header ("Jul
-2026") with a date-picker dropdown, then a day-by-day agenda:
+Confirmed against real rendered text from a GitHub Actions run
+(2026-07-08). An earlier version of this parser was designed from
+screenshots of what turned out to be a day-detail popup, not the default
+page — the default view is a month grid, shaped like:
 
-    THU, JUL 9
+    Jul 2026
+    ...
+    EVENTS FOR OCTOBER
+    9
 
-    ON STAGE
+    Learn more about
+    Sylvia - ABT
 
     7:30 PM
-    LEO DELIBES
-    Sylvia - ABT
-    Barker; Shevchenko, Royal III
-    BUY TICKETS
 
-    FRI, JUL 10
+    BUY TICKETS
+    TO SYLVIA - ABT
+
+    EVENTS FOR OCTOBER
+    10
     ...
 
-i.e. a "<WEEKDAY>, <MON> <day>" date header, a section label ("ON STAGE",
-possibly others we haven't seen e.g. for Live in HD screenings), then per
-event: time, composer/creator, title, cast line, and a call-to-action
-button — of which we only need the first three.
+i.e. a "<Mon> <year>" header giving the year (oddly paired with an
+"EVENTS FOR OCTOBER" grid in the one real run we've seen — the displayed
+month name and the header didn't match, for reasons we don't know; we
+just trust "EVENTS FOR <MONTH>" for the month and the header for the
+year), then per calendar cell: "EVENTS FOR <MONTH>" + day-of-month,
+followed by zero or more events each as "Learn more about" / title / time
+/ booking button lines. Multiple same-day events repeat the
+title/time/button block without repeating the "EVENTS FOR <MONTH>" + day
+header.
 
-LIMITATION: this only reads whatever the page renders on initial load,
-which appears to be the current month only ("Jul 2026" in the screenshot).
-Changing month is a date-picker widget interaction (see the second
-screenshot: clicking the month label opens a calendar with next/prev
-arrows and a confirm checkmark), not a URL change like Wiener Staatsoper —
-we have not implemented driving that widget, so unlike wiener_staatsoper's
-months_ahead this only ever returns the current month's schedule. Revisit
-if multi-month coverage turns out to matter in practice.
-
-This has not been verified against the live site's actual markup (only
-screenshots) — if extraction yields zero performances, check the logged
-warning and inspect a fresh render.
+LIMITATION: this only reads whatever the page renders on initial load. We
+haven't automated changing the displayed month (a date-picker widget
+interaction), so this only captures whatever month(s) happen to be
+rendered by default.
 """
 
 from __future__ import annotations
@@ -50,14 +53,28 @@ from opera_schedule_tracker.models import Performance
 
 logger = logging.getLogger(__name__)
 
-_WEEKDAYS = "MON|TUE|WED|THU|FRI|SAT|SUN"
-_MONTHS = "JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC"
-
-DATE_HEADER_RE = re.compile(rf"^({_WEEKDAYS}), ({_MONTHS}) (\d{{1,2}})$")
-TIME_RE = re.compile(r"^(\d{1,2}):(\d{2})\s*(AM|PM)$", re.IGNORECASE)
 MONTH_YEAR_RE = re.compile(
     r"^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{4})"
 )
+EVENTS_FOR_RE = re.compile(r"^EVENTS FOR ([A-Z]+)$")
+DAY_RE = re.compile(r"^\d{1,2}$")
+LEARN_MORE_RE = re.compile(r"^Learn more about$")
+TIME_RE = re.compile(r"^(\d{1,2}):(\d{2})\s*(AM|PM)$", re.IGNORECASE)
+
+_FULL_MONTH_NUM = {
+    "JANUARY": 1,
+    "FEBRUARY": 2,
+    "MARCH": 3,
+    "APRIL": 4,
+    "MAY": 5,
+    "JUNE": 6,
+    "JULY": 7,
+    "AUGUST": 8,
+    "SEPTEMBER": 9,
+    "OCTOBER": 10,
+    "NOVEMBER": 11,
+    "DECEMBER": 12,
+}
 
 
 def parse_calendar_text(text: str, opera_house: str, page_url: str) -> list[Performance]:
@@ -65,7 +82,8 @@ def parse_calendar_text(text: str, opera_house: str, page_url: str) -> list[Perf
 
     performances: list[Performance] = []
     year: int | None = None
-    current_date: tuple[str, int] | None = None  # (month abbr upper, day)
+    current_month_num: int | None = None
+    current_day: int | None = None
 
     i = 0
     while i < len(lines):
@@ -77,45 +95,47 @@ def parse_calendar_text(text: str, opera_house: str, page_url: str) -> list[Perf
             i += 1
             continue
 
-        date_match = DATE_HEADER_RE.match(line)
-        if date_match:
-            current_date = (date_match.group(2), int(date_match.group(3)))
+        events_for_match = EVENTS_FOR_RE.match(line)
+        if events_for_match:
+            month_num = _FULL_MONTH_NUM.get(events_for_match.group(1))
             i += 1
+            if month_num is not None and i < len(lines) and DAY_RE.match(lines[i]):
+                current_month_num = month_num
+                current_day = int(lines[i])
+                i += 1
             continue
 
-        time_match = TIME_RE.match(line)
-        if time_match and current_date is not None and year is not None:
-            hour, minute, ampm = time_match.groups()
-            i += 1
-
-            block: list[str] = []
-            while i < len(lines) and not TIME_RE.match(lines[i]) and not DATE_HEADER_RE.match(
-                lines[i]
-            ):
-                block.append(lines[i])
+        if (
+            LEARN_MORE_RE.match(line)
+            and current_day is not None
+            and current_month_num is not None
+            and year is not None
+            and i + 2 < len(lines)
+        ):
+            title = lines[i + 1]
+            time_match = TIME_RE.match(lines[i + 2])
+            if time_match is None:
                 i += 1
-
-            if len(block) < 2:
                 continue
-            title = block[1]
 
-            month_abbr, day = current_date
+            hour, minute, ampm = time_match.groups()
             try:
                 start_dt = datetime.strptime(
-                    f"{day} {month_abbr.title()} {year} {hour}:{minute}{ampm.upper()}",
-                    "%d %b %Y %I:%M%p",
+                    f"{current_day} {current_month_num} {year} {hour}:{minute}{ampm.upper()}",
+                    "%d %m %Y %I:%M%p",
                 )
             except ValueError:
                 logger.warning(
-                    "Could not parse date/time for %r on %s %s %s (%s:%s%s)",
+                    "Could not parse date/time for %r on %s/%s/%s (%s:%s%s)",
                     title,
-                    month_abbr,
-                    day,
+                    current_month_num,
+                    current_day,
                     year,
                     hour,
                     minute,
                     ampm,
                 )
+                i += 3
                 continue
 
             performances.append(
@@ -126,6 +146,7 @@ def parse_calendar_text(text: str, opera_house: str, page_url: str) -> list[Perf
                     url=page_url,
                 )
             )
+            i += 3
             continue
 
         i += 1

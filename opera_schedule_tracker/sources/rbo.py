@@ -2,23 +2,40 @@
 
 Source: https://www.rbo.org.uk/tickets-and-events
 
-Based on a screenshot (2026-07-08), the page groups events under a month
-header ("July, 2026") and then per-day sections ("Wednesday" / "8", i.e.
-weekday name and day-of-month — possibly on the same line, possibly on two,
-since we can't tell from a screenshot alone; this parser accepts both).
-Each day section, once expanded, lists its events as a title line followed
-by a time line (e.g. "I puritani" / "7PM"). Days with no events shown in
-the screenshot may just be collapsed by default — the fetcher clicks the
-page's "Expand all" toggle (via Playwright's text-based locator, so it
-does not depend on knowing a CSS class name) before reading the page, so
-collapsed days should still be picked up if that click succeeds.
+Confirmed against real rendered text from a GitHub Actions run
+(2026-07-08). An earlier version of this parser was designed from a
+screenshot showing a day-by-day accordion calendar with an "Expand all"
+toggle — that turned out to be a different view (reached via a "Calendar"
+tab) than what the page actually renders by default. The default view is
+a "List" of event cards, each shaped like:
 
-This has not been verified against the live site's actual markup (only a
-screenshot) — if extraction yields zero performances, check the logged
-warning and inspect a fresh render. In particular: we've only seen the
-current month; whether/how the page exposes future months (pagination,
-infinite scroll, ...) is unknown, so this may currently only pick up
-what's rendered on initial load.
+    Main Stage
+
+    Opera and music
+
+    I puritani
+
+    9
+    –19 July 2026
+
+    A couple's faith is tested.
+
+    See dates
+    More info
+
+i.e. venue, one or more category tags ("Opera and music" / "Ballet and
+Dance" / "Tours"), title, then a date — either a range ("<day>" then
+"–<day> <Month> <year>", or "<day> <Month>" then "–<day> <Month> <year>"
+if the range crosses months) or a single day ("<day> <Month> <year>") —
+then a description and call-to-action buttons we don't need. The title is
+always the line immediately before the date, regardless of how many
+venue/category lines precede it, so that's what this parser anchors on
+rather than trying to classify every preceding line.
+
+No "Expand all" click is needed for this view — all cards' dates are
+already in the rendered text. If a run yields zero performances, check
+the logged warning: the site may have swapped back to a different default
+view, or the card shape has changed.
 """
 
 from __future__ import annotations
@@ -27,109 +44,93 @@ import logging
 import re
 from datetime import datetime
 
-from opera_schedule_tracker.browser import open_page
+from opera_schedule_tracker.browser import get_rendered_text
 from opera_schedule_tracker.models import Performance
 
 logger = logging.getLogger(__name__)
 
-WEEKDAY_RE = re.compile(
-    r"^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)(?:\s+(\d{1,2}))?$"
-)
-DAY_ONLY_RE = re.compile(r"^\d{1,2}$")
-MONTH_HEADER_RE = re.compile(
-    r"^(January|February|March|April|May|June|July|August|September|"
-    r"October|November|December),\s*(\d{4})$"
-)
-TIME_RE = re.compile(r"^(\d{1,2})(?::(\d{2}))?\s*(AM|PM)$", re.IGNORECASE)
+# "10 July 2026" - a single-day event.
+SINGLE_DATE_RE = re.compile(r"^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})$")
+# "9 July" - the start of a range that crosses months (paired with
+# RANGE_END_RE on the next line).
+DAY_MONTH_RE = re.compile(r"^(\d{1,2})\s+([A-Za-z]+)$")
+# "9" - the start of a range within a single month.
+DAY_ONLY_RE = re.compile(r"^(\d{1,2})$")
+# "–19 July 2026" - the end of a range, on the line after its start.
+RANGE_END_RE = re.compile(r"^[-–—]\s*(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})$")
+
+
+def _parse_date(day: str, month: str, year: str) -> str | None:
+    try:
+        return datetime.strptime(f"{day} {month} {year}", "%d %B %Y").date().isoformat()
+    except ValueError:
+        return None
 
 
 def parse_events_text(text: str, opera_house: str, page_url: str) -> list[Performance]:
     lines = [line.strip() for line in text.splitlines() if line.strip()]
 
     performances: list[Performance] = []
-    month_name: str | None = None
-    year: int | None = None
-    current_day: int | None = None
-    pending_title: str | None = None
 
-    i = 0
-    while i < len(lines):
-        line = lines[i]
+    for i, line in enumerate(lines):
+        range_end_match = RANGE_END_RE.match(line)
+        if range_end_match and i >= 2:
+            end_day, end_month, year = range_end_match.groups()
+            start_line = lines[i - 1]
 
-        month_match = MONTH_HEADER_RE.match(line)
-        if month_match:
-            month_name, year = month_match.group(1), int(month_match.group(2))
-            pending_title = None
-            i += 1
-            continue
+            day_month_match = DAY_MONTH_RE.match(start_line)
+            day_only_match = DAY_ONLY_RE.match(start_line)
+            if day_month_match:
+                start_day, start_month = day_month_match.groups()
+            elif day_only_match:
+                start_day, start_month = day_only_match.group(1), end_month
+            else:
+                continue
 
-        weekday_match = WEEKDAY_RE.match(line)
-        if weekday_match:
-            day_num = weekday_match.group(2)
-            i += 1
-            if day_num is None and i < len(lines) and DAY_ONLY_RE.match(lines[i]):
-                day_num = lines[i]
-                i += 1
-            current_day = int(day_num) if day_num else None
-            pending_title = None
-            continue
-
-        time_match = TIME_RE.match(line)
-        if time_match and current_day is not None and month_name and year and pending_title:
-            hour, minute, ampm = time_match.groups()
-            minute = minute or "00"
-            try:
-                start_dt = datetime.strptime(
-                    f"{current_day} {month_name} {year} {hour}:{minute}{ampm.upper()}",
-                    "%d %B %Y %I:%M%p",
-                )
-                performances.append(
-                    Performance(
-                        opera_house=opera_house,
-                        title=pending_title,
-                        start_date=start_dt.isoformat(),
-                        url=page_url,
-                    )
-                )
-            except ValueError:
+            title = lines[i - 2]
+            start_date = _parse_date(start_day, start_month, year)
+            end_date = _parse_date(end_day, end_month, year)
+            if start_date is None or end_date is None:
                 logger.warning(
-                    "Could not parse date/time for %r on %s %s %s (%s)",
-                    pending_title,
-                    current_day,
-                    month_name,
-                    year,
-                    line,
+                    "Could not parse date range for %r: %r / %r", title, start_line, line
                 )
-            pending_title = None
-            i += 1
+                continue
+
+            performances.append(
+                Performance(
+                    opera_house=opera_house,
+                    title=title,
+                    start_date=start_date,
+                    end_date=end_date,
+                    url=page_url,
+                )
+            )
             continue
 
-        if DAY_ONLY_RE.match(line):
-            # a stray day-of-month line not attached to a weekday we
-            # recognised (e.g. the first line after an unmatched header)
-            i += 1
-            continue
+        single_date_match = SINGLE_DATE_RE.match(line)
+        if single_date_match and i >= 1:
+            day, month, year = single_date_match.groups()
+            title = lines[i - 1]
+            start_date = _parse_date(day, month, year)
+            if start_date is None:
+                logger.warning("Could not parse date for %r: %r", title, line)
+                continue
 
-        # Anything else is a candidate event title, to be confirmed if the
-        # next matching line is a time.
-        pending_title = line
-        i += 1
+            performances.append(
+                Performance(
+                    opera_house=opera_house,
+                    title=title,
+                    start_date=start_date,
+                    url=page_url,
+                )
+            )
 
     return performances
 
 
 def fetch_rbo_performances(opera_house: str, url: str) -> list[Performance]:
     try:
-        with open_page(url) as page:
-            try:
-                page.get_by_text("Expand all", exact=False).click(timeout=5_000)
-            except Exception:  # noqa: BLE001 - proceed with whatever is already expanded
-                logger.warning(
-                    "Could not click 'Expand all' on %s; some events may be missing.",
-                    opera_house,
-                )
-            page.wait_for_timeout(2_000)
-            text = page.inner_text("body")
+        text = get_rendered_text(url, wait_ms=3_000)
     except Exception as exc:  # noqa: BLE001 - log and continue with other sources
         logger.warning("Failed to render %s (%s): %s", opera_house, url, exc)
         return []
