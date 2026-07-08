@@ -1,0 +1,20 @@
+name: Send Gmail
+
+on:
+  workflow_dispatch:
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send mail
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: shinmotoi2000@gmail.com
+          password: ${{ secrets.VIBETEST2 }}
+          subject: テストメール
+          to: shinmotoi2000@gmail.com
+          from: shinmotoi2000@gmail.com
+          body: GitHub Actionsからの送信テストです。
