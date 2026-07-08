@@ -27,7 +27,7 @@
 | Teatro alla Scala | `scala` | 実装済み（スクリーンショットを元に設計、ユニットテスト済み） |
 | Wiener Staatsoper | `wiener_staatsoper` | 実装済み（スクリーンショットを元に設計、ユニットテスト済み。月別ページを動的URLで複数取得） |
 | Royal Ballet and Opera | `rbo` | 実装済み（スクリーンショットを元に設計、ユニットテスト済み。「Expand all」トグルをクリックしてから抽出） |
-| Opéra national de Paris | `paris_opera` | 未実装（実データ待ち） |
+| Opéra national de Paris | `paris_opera` | 実装済み（スクリーンショットを元に設計、ユニットテスト済み。カード形式で個別公演日ではなく上演期間〈開始日〜終了日〉を取得） |
 | Metropolitan Opera | `met_opera` | 未実装（実データ待ち。JS描画のためAPIエンドポイント調査が理想） |
 
 **未実装のパーサーは警告をログに出して空リストを返すだけ**なので、実行自体は失敗しません。
