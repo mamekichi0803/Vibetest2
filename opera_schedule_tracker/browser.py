@@ -10,8 +10,10 @@ block obvious script traffic.
 from __future__ import annotations
 
 import logging
+from contextlib import contextmanager
+from typing import Iterator
 
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import Page, sync_playwright
 
 logger = logging.getLogger(__name__)
 
@@ -22,6 +24,24 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
 DEFAULT_TIMEOUT_MS = 30_000
+
+
+@contextmanager
+def open_page(url: str, wait_until: str = "domcontentloaded") -> Iterator[Page]:
+    """Load ``url`` in headless Chromium and yield the Playwright ``Page``.
+
+    Use this (instead of :func:`get_rendered_text`) when a source needs to
+    interact with the page — e.g. clicking an "expand all" toggle — before
+    reading its text.
+    """
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        try:
+            page = browser.new_page(user_agent=USER_AGENT, locale="en-US")
+            page.goto(url, timeout=DEFAULT_TIMEOUT_MS, wait_until=wait_until)
+            yield page
+        finally:
+            browser.close()
 
 
 def get_rendered_text(
@@ -36,17 +56,8 @@ def get_rendered_text(
     :param wait_ms: extra fixed delay after load/selector, to let any
         remaining async rendering (e.g. a calendar grid) settle.
     """
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        try:
-            page = browser.new_page(
-                user_agent=USER_AGENT,
-                locale="en-US",
-            )
-            page.goto(url, timeout=DEFAULT_TIMEOUT_MS, wait_until="domcontentloaded")
-            if wait_selector:
-                page.wait_for_selector(wait_selector, timeout=DEFAULT_TIMEOUT_MS)
-            page.wait_for_timeout(wait_ms)
-            return page.inner_text("body")
-        finally:
-            browser.close()
+    with open_page(url) as page:
+        if wait_selector:
+            page.wait_for_selector(wait_selector, timeout=DEFAULT_TIMEOUT_MS)
+        page.wait_for_timeout(wait_ms)
+        return page.inner_text("body")

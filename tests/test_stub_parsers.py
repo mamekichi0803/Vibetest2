@@ -2,12 +2,11 @@ import pytest
 
 from opera_schedule_tracker.sources.met_opera import fetch_met_opera_performances
 from opera_schedule_tracker.sources.paris_opera import fetch_paris_opera_performances
-from opera_schedule_tracker.sources.rbo import fetch_rbo_performances
 
 
 @pytest.mark.parametrize(
     "fetch",
-    [fetch_met_opera_performances, fetch_paris_opera_performances, fetch_rbo_performances],
+    [fetch_met_opera_performances, fetch_paris_opera_performances],
 )
 def test_stub_parser_returns_empty_and_warns(fetch, caplog):
     with caplog.at_level("WARNING"):
