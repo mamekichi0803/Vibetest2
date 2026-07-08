@@ -7,12 +7,13 @@
 # calendar page's rendered text (see each parser module's docstring for the
 # page layout it expects and how confident that layout is).
 #
-# Status (2026-07-08): only "scala" has been designed against an actual
-# screenshot of the live page and has unit tests. The other four are stubs
-# that log a warning and return no performances until we've seen their real
-# page content and implemented + tested a parser for them. See README for
-# how we're gathering that (screenshots, since this dev environment's
-# network access to these domains is blocked).
+# Status (2026-07-08): all five parsers are implemented and unit-tested,
+# but each was designed from screenshots rather than real HTML/DOM (this
+# dev environment's network access to these domains is blocked, so we
+# couldn't inspect live markup — see README for how we gathered page
+# layouts instead). None have been run against the live sites yet. If a
+# run logs "No performances extracted for ...", the real page has likely
+# drifted from what the parser expects and needs adjustment.
 
 opera_houses:
   - name: "Teatro alla Scala"
