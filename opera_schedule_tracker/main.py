@@ -11,7 +11,12 @@ import yaml
 from opera_schedule_tracker.models import Performance
 from opera_schedule_tracker.notifier import send_update_email
 from opera_schedule_tracker.sources import PARSERS
-from opera_schedule_tracker.state import diff_performances, load_state, save_state
+from opera_schedule_tracker.state import (
+    diff_performances,
+    filter_upcoming,
+    load_state,
+    save_state,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -54,8 +59,8 @@ def run(
     dry_run: bool = False,
 ) -> None:
     opera_houses = load_opera_houses(config_path)
-    current = fetch_all(opera_houses)
-    previous = load_state(state_path)
+    current = filter_upcoming(fetch_all(opera_houses))
+    previous = {p.key: p for p in filter_upcoming(load_state(state_path).values())}
     diff = diff_performances(previous, current)
 
     logger.info(

@@ -13,11 +13,14 @@
    - JSON-LD を持たないサイトはサイト専用パーサー（例: `sources/scala.py`）を使います。
      JavaScriptで描画されるページ（例: Met Opera）は `opera_schedule_tracker/browser.py` の
      Headless Chromium（Playwright）でレンダリングしてからテキストを解析します。
-2. 前回実行時の結果（`data/state.json`）と比較し、新規追加・削除・変更された公演を検出します
-   （`opera_schedule_tracker/state.py`）。
-3. 差分があれば SMTP 経由でメールを送信します（`opera_schedule_tracker/notifier.py`）。
+2. 取得した公演から、既に終了したもの（終了日、なければ開始日が今日より前）を除外します
+   （`opera_schedule_tracker/state.py` の `filter_upcoming`）。今後の公演のみが対象になります。
+3. 前回実行時の結果（`data/state.json`）と比較し、新規追加・削除・変更された公演を検出します
+   （`opera_schedule_tracker/state.py`）。前回保存分に残っていた過去公演も同様に除外してから
+   比較するため、「フィルター導入前の過去公演が大量に削除扱いになる」ことはありません。
+4. 差分があれば SMTP 経由でメールを送信します（`opera_schedule_tracker/notifier.py`）。
    送信先はデフォルトで `shinmotoi2000@gmail.com` です。
-4. GitHub Actions（`.github/workflows/opera-schedule-tracker.yml`）が毎日定時に実行し、
+5. GitHub Actions（`.github/workflows/opera-schedule-tracker.yml`）が毎日定時に実行し、
    最新の `data/state.json` をリポジトリにコミットします。
 
 ## 対象オペラハウスと実装状況

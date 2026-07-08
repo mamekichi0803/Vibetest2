@@ -4,7 +4,11 @@ from __future__ import annotations
 
 import json
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
+from typing import Iterable
+
+from dateutil import parser as date_parser
 
 from opera_schedule_tracker.models import Performance
 
@@ -35,6 +39,32 @@ def save_state(path: Path, performances: list[Performance]) -> None:
         json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True),
         encoding="utf-8",
     )
+
+
+def _relevant_date(performance: Performance) -> date | None:
+    """The date that determines whether a performance is still upcoming:
+    its run's end date if there is one, otherwise its start date."""
+    raw = performance.end_date or performance.start_date
+    try:
+        return date_parser.isoparse(raw).date()
+    except (ValueError, TypeError):
+        return None
+
+
+def filter_upcoming(
+    performances: Iterable[Performance], today: date | None = None
+) -> list[Performance]:
+    """Drop performances (or performance runs) that have already ended.
+
+    A performance with an unparseable date is kept rather than silently
+    dropped, since we'd rather over-report than hide a real listing.
+    """
+    today = today or date.today()
+    return [
+        p
+        for p in performances
+        if (relevant := _relevant_date(p)) is None or relevant >= today
+    ]
 
 
 def diff_performances(

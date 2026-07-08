@@ -70,6 +70,64 @@ def test_run_dry_run_does_not_send_or_save(tmp_path: Path, monkeypatch):
     assert not state_path.exists()
 
 
+def test_run_filters_out_past_performances(tmp_path: Path, monkeypatch):
+    config_path = tmp_path / "opera_houses.yaml"
+    config_path.write_text(
+        yaml.safe_dump(
+            {"opera_houses": [{"name": "Test Opera", "url": "https://example.com"}]}
+        )
+    )
+    state_path = tmp_path / "state.json"
+
+    fetched = [
+        Performance(opera_house="Test Opera", title="Old Show", start_date="2020-01-01"),
+        Performance(opera_house="Test Opera", title="New Show", start_date="2999-01-01"),
+    ]
+    monkeypatch.setitem(main_module.PARSERS, "jsonld", lambda name, url: fetched)
+
+    sent_diffs = []
+    monkeypatch.setattr(
+        main_module,
+        "send_update_email",
+        lambda diff, recipient=None: sent_diffs.append(diff),
+    )
+
+    main_module.run(config_path=config_path, state_path=state_path)
+
+    assert len(sent_diffs) == 1
+    assert [p.title for p in sent_diffs[0].added] == ["New Show"]
+
+
+def test_run_does_not_report_stale_past_state_as_removed(tmp_path: Path, monkeypatch):
+    config_path = tmp_path / "opera_houses.yaml"
+    config_path.write_text(
+        yaml.safe_dump(
+            {"opera_houses": [{"name": "Test Opera", "url": "https://example.com"}]}
+        )
+    )
+    state_path = tmp_path / "state.json"
+    # Simulate state.json still containing an old, now-past performance
+    # from before filtering was introduced.
+    main_module.save_state(
+        state_path,
+        [Performance(opera_house="Test Opera", title="Old Show", start_date="2020-01-01")],
+    )
+
+    monkeypatch.setitem(main_module.PARSERS, "jsonld", lambda name, url: [])
+
+    sent_diffs = []
+    monkeypatch.setattr(
+        main_module,
+        "send_update_email",
+        lambda diff, recipient=None: sent_diffs.append(diff),
+    )
+
+    main_module.run(config_path=config_path, state_path=state_path)
+
+    assert len(sent_diffs) == 1
+    assert sent_diffs[0].is_empty
+
+
 def test_fetch_all_skips_unknown_parser_and_continues(caplog):
     houses = [{"name": "Mystery Opera", "url": "https://example.com", "parser": "does-not-exist"}]
     with caplog.at_level("ERROR"):

@@ -1,8 +1,14 @@
 import json
+from datetime import date
 from pathlib import Path
 
 from opera_schedule_tracker.models import Performance
-from opera_schedule_tracker.state import diff_performances, load_state, save_state
+from opera_schedule_tracker.state import (
+    diff_performances,
+    filter_upcoming,
+    load_state,
+    save_state,
+)
 
 
 def make_performance(title="Carmen", start="2026-09-01", venue="Main Hall", url="https://x/1"):
@@ -69,3 +75,54 @@ def test_save_state_creates_parent_directory(tmp_path: Path):
     assert state_path.exists()
     data = json.loads(state_path.read_text())
     assert len(data) == 1
+
+
+def test_filter_upcoming_drops_past_start_dates():
+    today = date(2026, 7, 8)
+    past = make_performance(title="Old Show", start="2026-07-01")
+    future = make_performance(title="New Show", start="2026-07-09")
+    today_show = make_performance(title="Today Show", start="2026-07-08")
+
+    result = filter_upcoming([past, future, today_show], today=today)
+
+    assert {p.title for p in result} == {"New Show", "Today Show"}
+
+
+def test_filter_upcoming_keeps_ongoing_runs_by_end_date():
+    today = date(2026, 7, 8)
+    ongoing_run = Performance(
+        opera_house="Test Opera",
+        title="Long Run",
+        start_date="2026-06-01",
+        end_date="2026-08-01",
+    )
+    finished_run = Performance(
+        opera_house="Test Opera",
+        title="Finished Run",
+        start_date="2026-06-01",
+        end_date="2026-07-01",
+    )
+
+    result = filter_upcoming([ongoing_run, finished_run], today=today)
+
+    assert {p.title for p in result} == {"Long Run"}
+
+
+def test_filter_upcoming_keeps_datetime_start_dates():
+    today = date(2026, 7, 8)
+    p = make_performance(title="Tonight", start="2026-07-08T19:30:00")
+    assert filter_upcoming([p], today=today) == [p]
+
+
+def test_filter_upcoming_keeps_unparseable_dates_rather_than_dropping():
+    p = make_performance(title="Weird Date", start="not-a-date")
+    assert filter_upcoming([p], today=date(2026, 7, 8)) == [p]
+
+
+def test_filter_upcoming_defaults_to_today():
+    # Just confirm the default `today=None` path doesn't crash and behaves
+    # sanely relative to "now" without needing to freeze time.
+    far_future = make_performance(title="Far Future", start="2999-01-01")
+    far_past = make_performance(title="Far Past", start="2000-01-01")
+    result = filter_upcoming([far_future, far_past])
+    assert result == [far_future]
