@@ -177,7 +177,16 @@ def fetch_wiener_staatsoper_performances(
         except Exception as exc:  # noqa: BLE001 - log and continue with other months
             logger.warning("Failed to render %s (%s): %s", opera_house, month_url, exc)
             continue
-        performances.extend(parse_calendar_text(text, opera_house, month_url))
+        month_performances = parse_calendar_text(text, opera_house, month_url)
+        if not month_performances:
+            logger.warning(
+                "No performances extracted for %s at %s. "
+                "Rendered text (run with -v to see this):\n%s",
+                opera_house,
+                month_url,
+                text,
+            )
+        performances.extend(month_performances)
 
     if not performances:
         logger.warning(

@@ -60,6 +60,60 @@ def test_smtp_config_from_env_reads_values(monkeypatch):
     assert config.sender == "user@example.com"
 
 
+def test_smtp_config_from_env_treats_empty_string_as_unset(monkeypatch):
+    # GitHub Actions sets `env: SMTP_PORT: ${{ secrets.SMTP_PORT }}` to ""
+    # (not omitted) when that secret isn't configured, so `.get(key,
+    # default)` alone wouldn't fall back — this reproduces that and
+    # guards against the ValueError it used to cause in int(...).
+    monkeypatch.setenv("SMTP_USER", "user@example.com")
+    monkeypatch.setenv("SMTP_PASSWORD", "secret")
+    monkeypatch.setenv("SMTP_HOST", "")
+    monkeypatch.setenv("SMTP_PORT", "")
+    monkeypatch.setenv("SMTP_USE_SSL", "")
+    monkeypatch.setenv("SMTP_SENDER", "")
+
+    config = SmtpConfig.from_env()
+
+    assert config.host == "smtp.gmail.com"
+    assert config.port == 465
+    assert config.use_ssl is True
+    assert config.sender == "user@example.com"
+
+
+def test_send_update_email_uses_default_recipient_when_env_var_is_empty_string(
+    monkeypatch,
+):
+    monkeypatch.setenv("SMTP_USER", "user@example.com")
+    monkeypatch.setenv("SMTP_PASSWORD", "secret")
+    monkeypatch.setenv("RECIPIENT_EMAIL", "")
+
+    import opera_schedule_tracker.notifier as notifier_module
+
+    class FakeSmtp:
+        def __init__(self, host, port):
+            pass
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            return False
+
+        def login(self, username, password):
+            pass
+
+        def send_message(self, message):
+            self.sent = message
+
+    fake = FakeSmtp(None, None)
+    monkeypatch.setattr(notifier_module.smtplib, "SMTP_SSL", lambda host, port: fake)
+
+    diff = Diff(added=[make_performance()], removed=[], changed=[])
+    send_update_email(diff)
+
+    assert fake.sent["To"] == DEFAULT_RECIPIENT
+
+
 def test_send_update_email_skips_when_diff_empty(monkeypatch):
     monkeypatch.setenv("SMTP_USER", "user@example.com")
     monkeypatch.setenv("SMTP_PASSWORD", "secret")

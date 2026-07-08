@@ -143,8 +143,10 @@ def fetch_paris_opera_performances(
     if not performances:
         logger.warning(
             "No performances extracted for %s at %s "
-            "(page layout may differ from what this parser expects)",
+            "(page layout may differ from what this parser expects). "
+            "Rendered text (run with -v to see this):\n%s",
             opera_house,
             url,
+            text,
         )
     return performances
