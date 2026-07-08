@@ -25,7 +25,7 @@
 | オペラハウス | parser | 状況 |
 |---|---|---|
 | Teatro alla Scala | `scala` | 実装済み（スクリーンショットを元に設計、ユニットテスト済み） |
-| Wiener Staatsoper | `wiener_staatsoper` | 未実装（月別URL生成のみ実装済み。実データ待ち） |
+| Wiener Staatsoper | `wiener_staatsoper` | 実装済み（スクリーンショットを元に設計、ユニットテスト済み。月別ページを動的URLで複数取得） |
 | Royal Ballet and Opera | `rbo` | 未実装（実データ待ち） |
 | Opéra national de Paris | `paris_opera` | 未実装（実データ待ち） |
 | Metropolitan Opera | `met_opera` | 未実装（実データ待ち。JS描画のためAPIエンドポイント調査が理想） |
