@@ -10,7 +10,7 @@ import yaml
 
 from opera_schedule_tracker.models import Performance
 from opera_schedule_tracker.notifier import send_update_email
-from opera_schedule_tracker.sources import fetch_jsonld_performances
+from opera_schedule_tracker.sources import PARSERS
 from opera_schedule_tracker.state import diff_performances, load_state, save_state
 
 logger = logging.getLogger(__name__)
@@ -28,9 +28,20 @@ def load_opera_houses(config_path: Path) -> list[dict]:
 def fetch_all(opera_houses: list[dict]) -> list[Performance]:
     all_performances: list[Performance] = []
     for house in opera_houses:
+        extra = {k: v for k, v in house.items() if k not in ("name", "url", "parser")}
         name, url = house["name"], house["url"]
-        logger.info("Fetching %s (%s)", name, url)
-        performances = fetch_jsonld_performances(name, url)
+        parser_name = house.get("parser", "jsonld")
+        fetch = PARSERS.get(parser_name)
+        if fetch is None:
+            logger.error("Unknown parser %r for %s; skipping.", parser_name, name)
+            continue
+
+        logger.info("Fetching %s (%s) via %r parser", name, url, parser_name)
+        try:
+            performances = fetch(name, url, **extra)
+        except Exception:  # noqa: BLE001 - one bad source shouldn't kill the run
+            logger.exception("Error fetching %s; skipping.", name)
+            continue
         logger.info("  -> %d performance(s)", len(performances))
         all_performances.extend(performances)
     return all_performances

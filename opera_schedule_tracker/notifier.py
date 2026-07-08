@@ -27,18 +27,21 @@ class SmtpConfig:
 
     @classmethod
     def from_env(cls) -> "SmtpConfig | None":
-        host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
+        # Use `or default` rather than `.get(key, default)`: GitHub Actions
+        # sets an env var to "" (not unset) when the referenced secret
+        # doesn't exist, and `.get` only falls back on a *missing* key.
+        host = os.environ.get("SMTP_HOST") or "smtp.gmail.com"
         username = os.environ.get("SMTP_USER")
         password = os.environ.get("SMTP_PASSWORD")
         if not username or not password:
             return None
         return cls(
             host=host,
-            port=int(os.environ.get("SMTP_PORT", "465")),
+            port=int(os.environ.get("SMTP_PORT") or "465"),
             username=username,
             password=password,
-            use_ssl=os.environ.get("SMTP_USE_SSL", "true").lower() != "false",
-            sender=os.environ.get("SMTP_SENDER", username),
+            use_ssl=(os.environ.get("SMTP_USE_SSL") or "true").lower() != "false",
+            sender=os.environ.get("SMTP_SENDER") or username,
         )
 
 
@@ -99,7 +102,7 @@ def send_update_email(diff: Diff, recipient: str | None = None) -> bool:
         )
         return False
 
-    recipient = recipient or os.environ.get("RECIPIENT_EMAIL", DEFAULT_RECIPIENT)
+    recipient = recipient or os.environ.get("RECIPIENT_EMAIL") or DEFAULT_RECIPIENT
 
     message = EmailMessage()
     total = len(diff.added) + len(diff.removed) + len(diff.changed)

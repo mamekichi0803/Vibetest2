@@ -38,10 +38,18 @@ EVENT_TYPES = {
 }
 
 REQUEST_TIMEOUT_SECONDS = 20
+# A realistic desktop Chrome UA (rather than an honest bot UA) plus the
+# headers a real browser sends, to reduce the chance of a bare 403 from
+# sites that block obvious script traffic.
 USER_AGENT = (
-    "Mozilla/5.0 (compatible; OperaScheduleTracker/1.0; "
-    "+https://github.com/mamekichi0803/vibetest2)"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
+REQUEST_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 
 def _iter_jsonld_blocks(html: str) -> Iterable[Any]:
@@ -147,7 +155,7 @@ def fetch_jsonld_performances(opera_house: str, url: str) -> list[Performance]:
         response = requests.get(
             url,
             timeout=REQUEST_TIMEOUT_SECONDS,
-            headers={"User-Agent": USER_AGENT},
+            headers=REQUEST_HEADERS,
         )
         response.raise_for_status()
     except requests.RequestException as exc:

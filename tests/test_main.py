@@ -28,9 +28,7 @@ def test_run_end_to_end(tmp_path: Path, monkeypatch):
             url="https://example.com/carmen",
         )
     ]
-    monkeypatch.setattr(
-        main_module, "fetch_jsonld_performances", lambda name, url: fetched
-    )
+    monkeypatch.setitem(main_module.PARSERS, "jsonld", lambda name, url: fetched)
 
     sent_diffs = []
     monkeypatch.setattr(
@@ -59,7 +57,7 @@ def test_run_dry_run_does_not_send_or_save(tmp_path: Path, monkeypatch):
     )
     state_path = tmp_path / "state.json"
 
-    monkeypatch.setattr(main_module, "fetch_jsonld_performances", lambda name, url: [])
+    monkeypatch.setitem(main_module.PARSERS, "jsonld", lambda name, url: [])
 
     calls = []
     monkeypatch.setattr(
@@ -70,3 +68,52 @@ def test_run_dry_run_does_not_send_or_save(tmp_path: Path, monkeypatch):
 
     assert calls == []
     assert not state_path.exists()
+
+
+def test_fetch_all_skips_unknown_parser_and_continues(caplog):
+    houses = [{"name": "Mystery Opera", "url": "https://example.com", "parser": "does-not-exist"}]
+    with caplog.at_level("ERROR"):
+        result = main_module.fetch_all(houses)
+    assert result == []
+    assert "does-not-exist" in caplog.text
+
+
+def test_fetch_all_continues_after_one_source_raises(monkeypatch, caplog):
+    def boom(name, url):
+        raise RuntimeError("network exploded")
+
+    good = [
+        Performance(opera_house="Good Opera", title="Carmen", start_date="2026-09-01")
+    ]
+    monkeypatch.setitem(main_module.PARSERS, "boom", boom)
+    monkeypatch.setitem(main_module.PARSERS, "jsonld", lambda name, url: good)
+
+    houses = [
+        {"name": "Broken Opera", "url": "https://example.com", "parser": "boom"},
+        {"name": "Good Opera", "url": "https://example.com"},
+    ]
+    with caplog.at_level("ERROR"):
+        result = main_module.fetch_all(houses)
+
+    assert result == good
+    assert "Broken Opera" in caplog.text
+
+
+def test_fetch_all_passes_extra_config_keys_as_kwargs(monkeypatch):
+    received = {}
+
+    def fake_parser(name, url, **kwargs):
+        received.update(kwargs)
+        return []
+
+    monkeypatch.setitem(main_module.PARSERS, "fake", fake_parser)
+    houses = [
+        {
+            "name": "Test Opera",
+            "url": "https://example.com",
+            "parser": "fake",
+            "months_ahead": 3,
+        }
+    ]
+    main_module.fetch_all(houses)
+    assert received == {"months_ahead": 3}
