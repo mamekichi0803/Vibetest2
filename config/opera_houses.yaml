@@ -1,40 +1,41 @@
 # Major opera houses to track.
 #
-# Each entry is fetched with the generic JSON-LD scraper
-# (opera_schedule_tracker/sources/generic_jsonld.py), which reads
-# schema.org Event structured data embedded in the page.
+# `parser` selects which function in opera_schedule_tracker/sources/ fetches
+# and parses this house's schedule (see PARSERS in
+# opera_schedule_tracker/sources/__init__.py). None of these five sites
+# expose schema.org JSON-LD, so each has a dedicated parser that reads the
+# calendar page's rendered text (see each parser module's docstring for the
+# page layout it expects and how confident that layout is).
 #
-# Notes:
-# - "what's on" / season page URLs are sometimes season-specific (e.g.
-#   metopera.org's "2025-26-season" path) and may need to be bumped once a
-#   year when the venue publishes its next season.
-# - If a house's page does not expose JSON-LD (or changes its markup so the
-#   generic parser no longer recognises it), the run logs a warning for
-#   that source and continues with the others rather than failing outright.
-#   Add a dedicated parser under opera_schedule_tracker/sources/ if you need
-#   tighter coverage for a specific house.
+# Status (2026-07-08): only "scala" has been designed against an actual
+# screenshot of the live page and has unit tests. The other four are stubs
+# that log a warning and return no performances until we've seen their real
+# page content and implemented + tested a parser for them. See README for
+# how we're gathering that (screenshots, since this dev environment's
+# network access to these domains is blocked).
 
 opera_houses:
-  - name: "Metropolitan Opera"
-    url: "https://www.metopera.org/season/2025-26-season/"
-
-  - name: "Royal Opera House"
-    url: "https://www.roh.org.uk/tickets-and-events"
+  - name: "Teatro alla Scala"
+    url: "https://www.teatroallascala.org/en/calendar.html"
+    parser: "scala"
 
   - name: "Wiener Staatsoper"
-    url: "https://www.wiener-staatsoper.at/en/spielplan/"
+    # Monthly calendar pages, e.g. .../en/calendar/2026/september/ — the
+    # month/year segment is generated dynamically at run time (see
+    # opera_schedule_tracker/sources/wiener_staatsoper.py) rather than
+    # hardcoded here, so `url` is the base to build from.
+    url: "https://www.wiener-staatsoper.at/en/calendar/"
+    parser: "wiener_staatsoper"
+    months_ahead: 3
 
-  - name: "Teatro alla Scala"
-    url: "https://www.teatroallascala.org/en/season/calendar-page.html"
+  - name: "Royal Ballet and Opera"
+    url: "https://www.rbo.org.uk/tickets-and-events"
+    parser: "rbo"
 
   - name: "Opera national de Paris"
-    url: "https://www.operadeparis.fr/en/programmation"
+    url: "https://www.operadeparis.fr/en/programme-and-tickets"
+    parser: "paris_opera"
 
-  - name: "Bayerische Staatsoper"
-    url: "https://www.staatsoper.de/en/whats-on.html"
-
-  - name: "Semperoper Dresden"
-    url: "https://www.semperoper.de/en/spielplan-tickets"
-
-  - name: "Deutsche Oper Berlin"
-    url: "https://www.deutscheoperberlin.de/en_EN/schedule"
+  - name: "Metropolitan Opera"
+    url: "https://www.metopera.org/calendar/"
+    parser: "met_opera"
