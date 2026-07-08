@@ -15,6 +15,6 @@ jobs:
           username: shinmotoi2000@gmail.com
           password: ${{ secrets.VIBETEST2 }}
           subject: テストメール
-          to: 送信先shinmotoi2000@gmail.com
+          to: shinmotoi2000@gmail.com
           from: shinmotoi2000@gmail.com
           body: GitHub Actionsからの送信テストです。
