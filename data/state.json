@@ -3430,19 +3430,10 @@
   },
   {
     "end_date": "2026-10-30",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-11",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-12",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-11",
+    "start_date": "2026-07-12",
     "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-07-25",
-    "key": "Royal Ballet and Opera|La bohème|2026-07-11",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-11",
-    "title": "La bohème",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3461,6 +3452,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-07-13",
     "title": "Beyond the Bridge Tour: Celebrating 100 Years of The Royal Ballet School",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-07-25",
+    "key": "Royal Ballet and Opera|La bohème|2026-07-13",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-13",
+    "title": "La bohème",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3580,24 +3580,6 @@
     "title": "Das Rheingold (RING Festival)",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Opéra Bastille"
-  },
-  {
-    "end_date": null,
-    "key": "Metropolitan Opera|Sylvia - ABT|2026-10-11T14:00:00",
-    "opera_house": "Metropolitan Opera",
-    "start_date": "2026-10-11T14:00:00",
-    "title": "Sylvia - ABT",
-    "url": "https://www.metopera.org/calendar/",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Metropolitan Opera|Sylvia - ABT|2026-10-11T19:30:00",
-    "opera_house": "Metropolitan Opera",
-    "start_date": "2026-10-11T19:30:00",
-    "title": "Sylvia - ABT",
-    "url": "https://www.metopera.org/calendar/",
-    "venue": null
   },
   {
     "end_date": null,
