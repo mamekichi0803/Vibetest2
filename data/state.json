@@ -3430,28 +3430,10 @@
   },
   {
     "end_date": "2026-10-30",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-12",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-12",
-    "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-07-19",
-    "key": "Royal Ballet and Opera|I puritani|2026-07-12",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-12",
-    "title": "I puritani",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Beyond the Bridge Tour: Celebrating 100 Years of The Royal Ballet School|2026-07-13",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-13",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-07-13",
-    "title": "Beyond the Bridge Tour: Celebrating 100 Years of The Royal Ballet School",
+    "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3501,6 +3483,15 @@
     "venue": null
   },
   {
+    "end_date": "2026-07-19",
+    "key": "Royal Ballet and Opera|I puritani|2026-07-15",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-15",
+    "title": "I puritani",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
     "end_date": "2026-10-30",
     "key": "Royal Ballet and Opera|Stages and Cells of Covent Garden|2026-07-17",
     "opera_house": "Royal Ballet and Opera",
@@ -3515,6 +3506,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-07-18",
     "title": "The Royal Ballet School Summer performance 2026",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-10-03",
+    "key": "Royal Ballet and Opera|HerStory of the Royal Opera House|2026-07-18",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-18",
+    "title": "HerStory of the Royal Opera House",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
