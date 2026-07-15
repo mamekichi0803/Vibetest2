@@ -19,6 +19,15 @@
   },
   {
     "end_date": null,
+    "key": "Teatro alla Scala|Stresa Festival | Closing Concert Of The 65Th Edition|2026-09-09T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2026-09-09T20:00:00",
+    "title": "Stresa Festival | Closing Concert Of The 65Th Edition",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
+  },
+  {
+    "end_date": null,
     "key": "Teatro alla Scala|L’Elisir D’Amore|2026-09-10T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-09-10T20:00:00",
@@ -34,6 +43,15 @@
     "title": "L’Elisir D’Amore",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Series D)"
+  },
+  {
+    "end_date": null,
+    "key": "Teatro alla Scala|Orchestra Sinfonica Di Milano|2026-09-13T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2026-09-13T20:00:00",
+    "title": "Orchestra Sinfonica Di Milano",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
   },
   {
     "end_date": null,
@@ -3438,47 +3456,11 @@
     "venue": "Main Stage"
   },
   {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Beyond the Bridge Afternoon Tea and Tour: Celebrating 100 Years of The Royal Ballet School|2026-07-14",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-14",
-    "title": "Beyond the Bridge Afternoon Tea and Tour: Celebrating 100 Years of The Royal Ballet School",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-10-27",
-    "key": "Royal Ballet and Opera|Thurrock Workshop Tour|2026-07-14",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-14",
-    "title": "Thurrock Workshop Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": "2026-10-30",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-14",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-15",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-14",
+    "start_date": "2026-07-15",
     "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-10-30",
-    "key": "Royal Ballet and Opera|Tea and Tour|2026-07-14",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-14",
-    "title": "Tea and Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-07-24",
-    "key": "Royal Ballet and Opera|La Fille du régiment|2026-07-14",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-14",
-    "title": "La Fille du régiment",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3502,10 +3484,28 @@
   },
   {
     "end_date": "2026-10-30",
+    "key": "Royal Ballet and Opera|Tea and Tour|2026-07-17",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-17",
+    "title": "Tea and Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-10-30",
     "key": "Royal Ballet and Opera|Stages and Cells of Covent Garden|2026-07-17",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-07-17",
     "title": "Stages and Cells of Covent Garden",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-07-24",
+    "key": "Royal Ballet and Opera|La Fille du régiment|2026-07-17",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-17",
+    "title": "La Fille du régiment",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3524,6 +3524,24 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-07-18",
     "title": "HerStory of the Royal Opera House",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-12-21",
+    "key": "Royal Ballet and Opera|Recitals at Lunch|2026-07-20",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-20",
+    "title": "Recitals at Lunch",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-08-15",
+    "key": "Royal Ballet and Opera|Architecture Tour|2026-07-20",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-20",
+    "title": "Architecture Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
