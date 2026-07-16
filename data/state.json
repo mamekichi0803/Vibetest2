@@ -3456,24 +3456,6 @@
     "venue": "Main Stage"
   },
   {
-    "end_date": "2026-10-30",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-15",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-15",
-    "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-07-19",
-    "key": "Royal Ballet and Opera|I puritani|2026-07-15",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-15",
-    "title": "I puritani",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": "2026-07-25",
     "key": "Royal Ballet and Opera|La bohème|2026-07-16",
     "opera_house": "Royal Ballet and Opera",
@@ -3501,6 +3483,15 @@
     "venue": null
   },
   {
+    "end_date": "2026-10-30",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-17",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-17",
+    "title": "Behind the Scenes Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
     "end_date": "2026-07-24",
     "key": "Royal Ballet and Opera|La Fille du régiment|2026-07-17",
     "opera_house": "Royal Ballet and Opera",
@@ -3524,6 +3515,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-07-18",
     "title": "HerStory of the Royal Opera House",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|I puritani|2026-07-19",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-19",
+    "title": "I puritani",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
