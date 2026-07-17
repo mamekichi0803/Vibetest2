@@ -3456,15 +3456,6 @@
     "venue": "Main Stage"
   },
   {
-    "end_date": "2026-07-25",
-    "key": "Royal Ballet and Opera|La bohème|2026-07-16",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-16",
-    "title": "La bohème",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": "2026-10-30",
     "key": "Royal Ballet and Opera|Tea and Tour|2026-07-17",
     "opera_house": "Royal Ballet and Opera",
@@ -3515,6 +3506,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-07-18",
     "title": "HerStory of the Royal Opera House",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-07-25",
+    "key": "Royal Ballet and Opera|La bohème|2026-07-18",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-18",
+    "title": "La bohème",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
