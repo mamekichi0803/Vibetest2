@@ -3457,28 +3457,19 @@
   },
   {
     "end_date": "2026-10-30",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-21",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-22",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-21",
+    "start_date": "2026-07-22",
     "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
-    "end_date": "2026-08-29",
-    "key": "Royal Ballet and Opera|Children's Alice in Wonderland Adventure Tour|2026-07-21",
+    "end_date": "2026-08-31",
+    "key": "Royal Ballet and Opera|Children's Alice in Wonderland Adventure Tour|2026-07-22",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-21",
+    "start_date": "2026-07-22",
     "title": "Children's Alice in Wonderland Adventure Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-07-25",
-    "key": "Royal Ballet and Opera|La bohème|2026-07-21",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-21",
-    "title": "La bohème",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3497,6 +3488,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-07-23",
     "title": "Architecture Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-07-25",
+    "key": "Royal Ballet and Opera|La bohème|2026-07-23",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-23",
+    "title": "La bohème",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
