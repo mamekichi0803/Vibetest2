@@ -3457,28 +3457,10 @@
   },
   {
     "end_date": "2026-10-30",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-23",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-24",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-23",
+    "start_date": "2026-07-24",
     "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-08-15",
-    "key": "Royal Ballet and Opera|Architecture Tour|2026-07-23",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-23",
-    "title": "Architecture Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-07-25",
-    "key": "Royal Ballet and Opera|La bohème|2026-07-23",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-23",
-    "title": "La bohème",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3497,6 +3479,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-07-24",
     "title": "La Fille du régiment",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|La bohème|2026-07-25",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-25",
+    "title": "La bohème",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3542,6 +3533,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-07-29",
     "title": "Marianela – Timeless",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-09-19",
+    "key": "Royal Ballet and Opera|Sip and Sketch: Costume Design Tour|2026-08-01",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-08-01",
+    "title": "Sip and Sketch: Costume Design Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
