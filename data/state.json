@@ -3457,28 +3457,10 @@
   },
   {
     "end_date": "2026-10-30",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-24",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-25",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-24",
+    "start_date": "2026-07-25",
     "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-08-31",
-    "key": "Royal Ballet and Opera|Children's Alice in Wonderland Adventure Tour|2026-07-24",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-24",
-    "title": "Children's Alice in Wonderland Adventure Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|La Fille du régiment|2026-07-24",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-24",
-    "title": "La Fille du régiment",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3519,6 +3501,15 @@
     "venue": null
   },
   {
+    "end_date": "2026-08-31",
+    "key": "Royal Ballet and Opera|Children's Alice in Wonderland Adventure Tour|2026-07-27",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-07-27",
+    "title": "Children's Alice in Wonderland Adventure Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
     "end_date": "2026-10-27",
     "key": "Royal Ballet and Opera|Thurrock Workshop Tour|2026-07-28",
     "opera_house": "Royal Ballet and Opera",
@@ -3542,6 +3533,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-08-01",
     "title": "Sip and Sketch: Costume Design Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-08-09",
+    "key": "Royal Ballet and Opera|Carlos Acosta: Myths and Modern Masters|2026-08-05",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-08-05",
+    "title": "Carlos Acosta: Myths and Modern Masters",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
