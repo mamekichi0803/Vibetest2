@@ -10,6 +10,15 @@
   },
   {
     "end_date": null,
+    "key": "Teatro alla Scala|Festival Mito Settembremusica / Simone Young / War Requiem|2026-09-06T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2026-09-06T20:00:00",
+    "title": "Festival Mito Settembremusica / Simone Young / War Requiem",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
+  },
+  {
+    "end_date": null,
     "key": "Teatro alla Scala|L’Elisir D’Amore|2026-09-08T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-09-08T20:00:00",
@@ -446,6 +455,15 @@
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-09-30T20:00:00",
     "title": "Verdi: Requiem Mass / Riccardo Chailly",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
+  },
+  {
+    "end_date": null,
+    "key": "Teatro alla Scala|Stelle Di Oggi E Di Domani - Fondazione Francesca Rava N.P.H. Italia Onlus|2026-11-02T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2026-11-02T20:00:00",
+    "title": "Stelle Di Oggi E Di Domani - Fondazione Francesca Rava N.P.H. Italia Onlus",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala"
   },
@@ -1297,10 +1315,10 @@
   },
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Igor Levit / Beethoven|2027-02-28T20:00:00",
+    "key": "Teatro alla Scala|Igor Levit / Beethoven I|2027-02-28T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2027-02-28T20:00:00",
-    "title": "Igor Levit / Beethoven",
+    "title": "Igor Levit / Beethoven I",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala"
   },
@@ -2836,10 +2854,10 @@
   },
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Igor Levit / Beethoven|2027-09-21T20:00:00",
+    "key": "Teatro alla Scala|Igor Levit / Beethoven Ii|2027-09-21T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2027-09-21T20:00:00",
-    "title": "Igor Levit / Beethoven",
+    "title": "Igor Levit / Beethoven Ii",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala"
   },
@@ -3457,27 +3475,27 @@
   },
   {
     "end_date": "2026-10-30",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-30",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-07-31",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-30",
+    "start_date": "2026-07-31",
     "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
     "end_date": "2026-08-31",
-    "key": "Royal Ballet and Opera|Children's Alice in Wonderland Adventure Tour|2026-07-30",
+    "key": "Royal Ballet and Opera|Children's Alice in Wonderland Adventure Tour|2026-07-31",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-30",
+    "start_date": "2026-07-31",
     "title": "Children's Alice in Wonderland Adventure Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
     "end_date": "2026-08-02",
-    "key": "Royal Ballet and Opera|Marianela – Timeless|2026-07-30",
+    "key": "Royal Ballet and Opera|Marianela – Timeless|2026-07-31",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-07-30",
+    "start_date": "2026-07-31",
     "title": "Marianela – Timeless",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
