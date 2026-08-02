@@ -3474,38 +3474,29 @@
     "venue": "Main Stage"
   },
   {
-    "end_date": "2026-09-19",
-    "key": "Royal Ballet and Opera|Sip and Sketch: Costume Design Tour|2026-08-01",
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Marianela – Timeless|2026-08-02",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-08-01",
-    "title": "Sip and Sketch: Costume Design Tour",
+    "start_date": "2026-08-02",
+    "title": "Marianela – Timeless",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
     "end_date": "2026-10-30",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-08-01",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-08-02",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-08-01",
+    "start_date": "2026-08-02",
     "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
     "end_date": "2026-08-31",
-    "key": "Royal Ballet and Opera|Children's Alice in Wonderland Adventure Tour|2026-08-01",
+    "key": "Royal Ballet and Opera|Children's Alice in Wonderland Adventure Tour|2026-08-03",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-08-01",
+    "start_date": "2026-08-03",
     "title": "Children's Alice in Wonderland Adventure Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-08-02",
-    "key": "Royal Ballet and Opera|Marianela – Timeless|2026-08-01",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-08-01",
-    "title": "Marianela – Timeless",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3560,6 +3551,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-08-13",
     "title": "Divine Divas Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-10-03",
+    "key": "Royal Ballet and Opera|HerStory of the Royal Opera House|2026-08-15",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-08-15",
+    "title": "HerStory of the Royal Opera House",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
