@@ -3474,33 +3474,6 @@
     "venue": "Main Stage"
   },
   {
-    "end_date": "2026-11-10",
-    "key": "Royal Ballet and Opera|Thurrock Workshop Tour|2026-08-25",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-08-25",
-    "title": "Thurrock Workshop Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-08-28",
-    "key": "Royal Ballet and Opera|Exhibition Tours|2026-08-25",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-08-25",
-    "title": "Exhibition Tours",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-08-28",
-    "key": "Royal Ballet and Opera|Summer exclusive: Extended behind the Scenes Tour|2026-08-25",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-08-25",
-    "title": "Summer exclusive: Extended behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": "2026-08-31",
     "key": "Royal Ballet and Opera|Children's Alice in Wonderland Adventure Tour|2026-08-26",
     "opera_house": "Royal Ballet and Opera",
@@ -3515,6 +3488,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-08-26",
     "title": "Behind the Scenes Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-08-28",
+    "key": "Royal Ballet and Opera|Summer exclusive: Extended behind the Scenes Tour|2026-08-26",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-08-26",
+    "title": "Summer exclusive: Extended behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3546,6 +3528,15 @@
     "venue": null
   },
   {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Exhibition Tours|2026-08-28",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-08-28",
+    "title": "Exhibition Tours",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
     "end_date": "2026-10-30",
     "key": "Royal Ballet and Opera|Tea and Tour|2026-08-29",
     "opera_house": "Royal Ballet and Opera",
@@ -3560,6 +3551,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-09-02",
     "title": "Insights: The McRae / Vassilev Project",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Friends Rehearsals|2026-09-08",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-09-08",
+    "title": "Friends Rehearsals",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
