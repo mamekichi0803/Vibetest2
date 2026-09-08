@@ -136,15 +136,6 @@
   },
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Giselle|2026-09-07T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-09-07T20:00:00",
-    "title": "Giselle",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala (Series R Ballet Subs.)"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|La Traviata|2026-09-08T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-09-08T20:00:00",
@@ -2842,15 +2833,6 @@
     "title": "Brian Jagde",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
-    "key": "Wiener Staatsoper|Don Carlo (Giuseppe Verdi)|2026-09-07T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-09-07T19:00:00",
-    "title": "Don Carlo (Giuseppe Verdi)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/september/",
-    "venue": "Main Stage"
   },
   {
     "end_date": null,
