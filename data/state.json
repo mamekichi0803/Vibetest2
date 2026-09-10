@@ -1,15 +1,6 @@
 [
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Stresa Festival | Closing Concert Of The 65Th Edition|2026-09-09T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-09-09T20:00:00",
-    "title": "Stresa Festival | Closing Concert Of The 65Th Edition",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|L’Elisir D’Amore|2026-09-10T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-09-10T20:00:00",
@@ -122,15 +113,6 @@
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-09-30T20:00:00",
     "title": "La Traviata",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala (Out Of Subs.)"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|Giselle|2026-09-09T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-09-09T20:00:00",
-    "title": "Giselle",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Out Of Subs.)"
   },
@@ -928,6 +910,15 @@
   },
   {
     "end_date": null,
+    "key": "Teatro alla Scala|Filarmonica Della Scala / Myung-Whun Chung / Nikolaj Szeps-Znaider|2026-11-25T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2026-11-25T20:00:00",
+    "title": "Filarmonica Della Scala / Myung-Whun Chung / Nikolaj Szeps-Znaider",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
+  },
+  {
+    "end_date": null,
     "key": "Teatro alla Scala|Les Pêcheurs De Perles|2026-11-27T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-27T20:00:00",
@@ -1015,6 +1006,15 @@
     "title": "Les Pêcheurs De Perles",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Series C)"
+  },
+  {
+    "end_date": null,
+    "key": "Teatro alla Scala|Filarmonica Della Scala / Lahav Shani / Münchner Philharmoniker|2027-02-08T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2027-02-08T20:00:00",
+    "title": "Filarmonica Della Scala / Lahav Shani / Münchner Philharmoniker",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
   },
   {
     "end_date": null,
@@ -1153,6 +1153,15 @@
   },
   {
     "end_date": null,
+    "key": "Teatro alla Scala|Filarmonica Della Scala / Thomas Guggeis|2027-02-22T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2027-02-22T20:00:00",
+    "title": "Filarmonica Della Scala / Thomas Guggeis",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
+  },
+  {
+    "end_date": null,
     "key": "Teatro alla Scala|Don Giovanni|2027-02-23T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2027-02-23T20:00:00",
@@ -1285,6 +1294,15 @@
     "title": "La Bohème",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Out Of Subs.)"
+  },
+  {
+    "end_date": null,
+    "key": "Teatro alla Scala|Filarmonica Della Scala / Lorenzo Viotti / Nikolai Lugansky|2027-02-08T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2027-02-08T20:00:00",
+    "title": "Filarmonica Della Scala / Lorenzo Viotti / Nikolai Lugansky",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
   },
   {
     "end_date": null,
@@ -1454,6 +1472,15 @@
     "opera_house": "Teatro alla Scala",
     "start_date": "2027-02-21T20:30:00",
     "title": "Piccolo 80 | Mont Ventoux",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
+  },
+  {
+    "end_date": null,
+    "key": "Teatro alla Scala|Filarmonica Della Scala / Michele Mariotti / Sol Gabetta|2027-02-22T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2027-02-22T20:00:00",
+    "title": "Filarmonica Della Scala / Michele Mariotti / Sol Gabetta",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala"
   },
@@ -1639,6 +1666,15 @@
   },
   {
     "end_date": null,
+    "key": "Teatro alla Scala|Filarmonica Della Scala / Simone Young|2027-04-19T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2027-04-19T20:00:00",
+    "title": "Filarmonica Della Scala / Simone Young",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
+  },
+  {
+    "end_date": null,
     "key": "Teatro alla Scala|The Rake'S Progress|2027-04-20T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2027-04-20T20:00:00",
@@ -1699,6 +1735,15 @@
     "title": "The Rake'S Progress",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Series D)"
+  },
+  {
+    "end_date": null,
+    "key": "Teatro alla Scala|Filarmonica Della Scala / Alan Gilbert / Yefim Bronfman|2027-04-03T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2027-04-03T20:00:00",
+    "title": "Filarmonica Della Scala / Alan Gilbert / Yefim Bronfman",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
   },
   {
     "end_date": null,
@@ -1888,6 +1933,15 @@
     "title": "Don Quichotte",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Series Opera Premiere)"
+  },
+  {
+    "end_date": null,
+    "key": "Teatro alla Scala|Filarmonica Della Scala / Riccardo Chailly / Kirill Gerstein|2027-04-24T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2027-04-24T20:00:00",
+    "title": "Filarmonica Della Scala / Riccardo Chailly / Kirill Gerstein",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
   },
   {
     "end_date": null,
@@ -2440,6 +2494,15 @@
   },
   {
     "end_date": null,
+    "key": "Teatro alla Scala|Filarmonica Della Scala / Gianandrea Noseda / James Ehnes|2027-09-10T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2027-09-10T20:00:00",
+    "title": "Filarmonica Della Scala / Gianandrea Noseda / James Ehnes",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
+  },
+  {
+    "end_date": null,
     "key": "Teatro alla Scala|Beethoven|2027-09-11T11:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2027-09-11T11:00:00",
@@ -2509,6 +2572,15 @@
     "title": "Il Barbiere Di Siviglia",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Out Of Subs.)"
+  },
+  {
+    "end_date": null,
+    "key": "Teatro alla Scala|Filarmonica Della Scala / Stanislav Kochanovsky / Sergey Khachatryan|2027-09-24T20:00:00",
+    "opera_house": "Teatro alla Scala",
+    "start_date": "2027-09-24T20:00:00",
+    "title": "Filarmonica Della Scala / Stanislav Kochanovsky / Sergey Khachatryan",
+    "url": "https://www.teatroallascala.org/en/calendar.html",
+    "venue": "Teatro alla Scala"
   },
   {
     "end_date": null,
@@ -2815,15 +2887,6 @@
     "title": "Brian Jagde",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
-    "key": "Wiener Staatsoper|Le Nozze Di Figaro (Wolfgang Amadeus Mozart)|2026-09-09T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-09-09T19:00:00",
-    "title": "Le Nozze Di Figaro (Wolfgang Amadeus Mozart)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/september/",
-    "venue": "Main Stage"
   },
   {
     "end_date": null,
@@ -3663,7 +3726,7 @@
     "venue": null
   },
   {
-    "end_date": "2026-09-19",
+    "end_date": "2026-10-03",
     "key": "Royal Ballet and Opera|Sip and Sketch: Costume Design Tour|2026-09-13",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-09-13",
