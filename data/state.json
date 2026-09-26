@@ -1,15 +1,6 @@
 [
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Daniele Rustioni|2026-09-25T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-09-25T20:00:00",
-    "title": "Daniele Rustioni",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|La Traviata|2026-09-26T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-09-26T20:00:00",
@@ -34,24 +25,6 @@
     "title": "La Traviata",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Out Of Subs.)"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|Mimì & Teo And… The Jazz Robot!|2026-09-25T15:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-09-25T15:00:00",
-    "title": "Mimì & Teo And… The Jazz Robot!",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|Filarmonica Della Scala / Gustavo Gimeno / Jörgen Van Rijen|2026-09-25T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-09-25T20:00:00",
-    "title": "Filarmonica Della Scala / Gustavo Gimeno / Jörgen Van Rijen",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
   },
   {
     "end_date": null,
@@ -2674,15 +2647,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Living Legacies (George Balanchine, Christopher Wheeldon, Frederick Ashton)|2026-09-25T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-09-25T19:00:00",
-    "title": "Living Legacies (George Balanchine, Christopher Wheeldon, Frederick Ashton)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/september/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|26 Sep (Sat)|2026-09-26T15:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-09-26T15:00:00",
@@ -3348,47 +3312,20 @@
     "venue": "Main Stage"
   },
   {
-    "end_date": "2026-11-27",
-    "key": "Royal Ballet and Opera|Live at Lunch|2026-09-25",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-09-25",
-    "title": "Live at Lunch",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-11-30",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-09-25",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-09-25",
-    "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|JPA @ 25: Jukebox|2026-09-25",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-09-25",
-    "title": "JPA @ 25: Jukebox",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-10-03",
-    "key": "Royal Ballet and Opera|Alcina|2026-09-25",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-09-25",
-    "title": "Alcina",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": "2026-12-17",
     "key": "Royal Ballet and Opera|Architecture Tour|2026-09-26",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-09-26",
     "title": "Architecture Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-11-30",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-09-26",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-09-26",
+    "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3434,6 +3371,33 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-09-28",
     "title": "Recitals at Lunch",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Friends Rehearsals|2026-09-28",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-09-28",
+    "title": "Friends Rehearsals",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-10-06",
+    "key": "Royal Ballet and Opera|Beyond the Bridge Tour: Celebrating 100 Years of The Royal Ballet School|2026-09-29",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-09-29",
+    "title": "Beyond the Bridge Tour: Celebrating 100 Years of The Royal Ballet School",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-11-10",
+    "key": "Royal Ballet and Opera|Thurrock Workshop Tour|2026-09-29",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-09-29",
+    "title": "Thurrock Workshop Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
