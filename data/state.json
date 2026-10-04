@@ -2566,33 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|03 Oct (Sat)|2026-10-03T09:30:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-03T09:30:00",
-    "title": "03 Oct (Sat)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Wiener Staatsoper|03 Oct (Sat)|2026-10-03T15:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-03T15:00:00",
-    "title": "03 Oct (Sat)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Wiener Staatsoper|Symposium Teesalon (Zemlinsky- Symposium)|2026-10-03T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-03T19:00:00",
-    "title": "Symposium Teesalon (Zemlinsky- Symposium)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|04 Oct (Sun)|2026-10-04T11:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-04T11:00:00",
@@ -3411,47 +3384,11 @@
     "venue": "Main Stage"
   },
   {
-    "end_date": "2026-10-30",
-    "key": "Royal Ballet and Opera|Tea and Tour|2026-10-03",
+    "end_date": "2026-12-21",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-04",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-03",
-    "title": "Tea and Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-11-30",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-03",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-03",
+    "start_date": "2026-10-04",
     "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Insights: The Royal Ballet School – A Centenary Celebration|2026-10-03",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-03",
-    "title": "Insights: The Royal Ballet School – A Centenary Celebration",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|HerStory of the Royal Opera House|2026-10-03",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-03",
-    "title": "HerStory of the Royal Opera House",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Alcina|2026-10-03",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-03",
-    "title": "Alcina",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3470,6 +3407,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-06",
     "title": "Beyond the Bridge Tour: Celebrating 100 Years of The Royal Ballet School",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-12-20",
+    "key": "Royal Ballet and Opera|Tea and Tour|2026-10-07",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-07",
+    "title": "Tea and Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3501,13 +3447,31 @@
     "venue": null
   },
   {
-    "end_date": "2026-10-09",
-    "key": "Opera national de Paris|Hamlet|2026-09-18",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-09-18",
-    "title": "Hamlet",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Opéra Bastille"
+    "end_date": "2026-10-10",
+    "key": "Royal Ballet and Opera|A Centenary Celebration|2026-10-08",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-08",
+    "title": "A Centenary Celebration",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-12-10",
+    "key": "Royal Ballet and Opera|Stages and Cells of Covent Garden|2026-10-09",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-09",
+    "title": "Stages and Cells of Covent Garden",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-11-27",
+    "key": "Royal Ballet and Opera|Exhibition Tours|2026-10-09",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-09",
+    "title": "Exhibition Tours",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
   },
   {
     "end_date": "2026-11-05",
@@ -3533,6 +3497,15 @@
     "opera_house": "Opera national de Paris",
     "start_date": "2026-10-08",
     "title": "Götterdämmerung",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Opéra Bastille"
+  },
+  {
+    "end_date": "2026-10-09",
+    "key": "Opera national de Paris|Hamlet|2026-09-18",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-09-18",
+    "title": "Hamlet",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Opéra Bastille"
   },
