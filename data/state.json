@@ -2566,24 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|04 Oct (Sun)|2026-10-04T11:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-04T11:00:00",
-    "title": "04 Oct (Sun)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Wiener Staatsoper|Concert Gustav-Mahler-Saal (Ensemble­Matinee Im Mahler-Saal)|2026-10-04T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-04T19:00:00",
-    "title": "Concert Gustav-Mahler-Saal (Ensemble­Matinee Im Mahler-Saal)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|Tosca (Giacomo Puccini)|2026-10-05T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-05T19:00:00",
@@ -3384,29 +3366,20 @@
     "venue": "Main Stage"
   },
   {
-    "end_date": "2026-12-21",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-04",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-04",
-    "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-10-17",
-    "key": "Royal Ballet and Opera|Parsifal|2026-10-04",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-04",
-    "title": "Parsifal",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": null,
     "key": "Royal Ballet and Opera|Beyond the Bridge Tour: Celebrating 100 Years of The Royal Ballet School|2026-10-06",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-06",
     "title": "Beyond the Bridge Tour: Celebrating 100 Years of The Royal Ballet School",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-12-21",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-06",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-06",
+    "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3474,22 +3447,13 @@
     "venue": null
   },
   {
-    "end_date": "2026-11-05",
-    "key": "Opera national de Paris|Il Barbiere di Siviglia|2026-09-12",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-09-12",
-    "title": "Il Barbiere di Siviglia",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Opéra Bastille"
-  },
-  {
-    "end_date": "2026-10-30",
-    "key": "Opera national de Paris|L'Histoire de Manon|2026-09-28",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-09-28",
-    "title": "L'Histoire de Manon",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Palais Garnier"
+    "end_date": "2026-10-17",
+    "key": "Royal Ballet and Opera|Parsifal|2026-10-09",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-09",
+    "title": "Parsifal",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
   },
   {
     "end_date": "2026-10-18",
@@ -3508,6 +3472,24 @@
     "title": "Hamlet",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Opéra Bastille"
+  },
+  {
+    "end_date": "2026-11-05",
+    "key": "Opera national de Paris|Il Barbiere di Siviglia|2026-09-12",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-09-12",
+    "title": "Il Barbiere di Siviglia",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Opéra Bastille"
+  },
+  {
+    "end_date": "2026-10-30",
+    "key": "Opera national de Paris|L'Histoire de Manon|2026-09-28",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-09-28",
+    "title": "L'Histoire de Manon",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Palais Garnier"
   },
   {
     "end_date": "2026-11-07",
