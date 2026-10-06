@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Tosca (Giacomo Puccini)|2026-10-05T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-05T19:00:00",
-    "title": "Tosca (Giacomo Puccini)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Von Zemlinsky, Béla Bartók)|2026-10-06T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-06T19:00:00",
@@ -3456,15 +3447,6 @@
     "venue": null
   },
   {
-    "end_date": "2026-10-18",
-    "key": "Opera national de Paris|Götterdämmerung|2026-10-08",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-10-08",
-    "title": "Götterdämmerung",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Opéra Bastille"
-  },
-  {
     "end_date": "2026-10-09",
     "key": "Opera national de Paris|Hamlet|2026-09-18",
     "opera_house": "Opera national de Paris",
@@ -3490,6 +3472,15 @@
     "title": "L'Histoire de Manon",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Palais Garnier"
+  },
+  {
+    "end_date": "2026-10-18",
+    "key": "Opera national de Paris|Götterdämmerung|2026-10-08",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-10-08",
+    "title": "Götterdämmerung",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Opéra Bastille"
   },
   {
     "end_date": "2026-11-07",
