@@ -2566,19 +2566,10 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Von Zemlinsky, Béla Bartók)|2026-10-06T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-06T19:00:00",
-    "title": "Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Von Zemlinsky, Béla Bartók)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
-    "key": "Wiener Staatsoper|Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Von Zemlinsky, Béla Bartók)|2026-10-08T19:00:00",
+    "key": "Wiener Staatsoper|Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Zemlinsky, Béla Bartók)|2026-10-08T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-08T19:00:00",
-    "title": "Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Von Zemlinsky, Béla Bartók)",
+    "title": "Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Zemlinsky, Béla Bartók)",
     "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
     "venue": "Main Stage"
   },
@@ -2629,10 +2620,10 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Von Zemlinsky, Béla Bartók)|2026-10-12T19:00:00",
+    "key": "Wiener Staatsoper|Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Zemlinsky, Béla Bartók)|2026-10-12T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-12T19:00:00",
-    "title": "Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Von Zemlinsky, Béla Bartók)",
+    "title": "Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Zemlinsky, Béla Bartók)",
     "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
     "venue": "Main Stage"
   },
@@ -3357,29 +3348,20 @@
     "venue": "Main Stage"
   },
   {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Beyond the Bridge Tour: Celebrating 100 Years of The Royal Ballet School|2026-10-06",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-06",
-    "title": "Beyond the Bridge Tour: Celebrating 100 Years of The Royal Ballet School",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-12-21",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-06",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-06",
-    "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": "2026-12-20",
     "key": "Royal Ballet and Opera|Tea and Tour|2026-10-07",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-07",
     "title": "Tea and Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-12-21",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-07",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-07",
+    "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3447,13 +3429,13 @@
     "venue": null
   },
   {
-    "end_date": "2026-10-09",
-    "key": "Opera national de Paris|Hamlet|2026-09-18",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-09-18",
-    "title": "Hamlet",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Opéra Bastille"
+    "end_date": "2026-11-21",
+    "key": "Royal Ballet and Opera|Sip and Sketch: Costume Design Tour|2026-10-11",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-11",
+    "title": "Sip and Sketch: Costume Design Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
   },
   {
     "end_date": "2026-11-05",
@@ -3479,6 +3461,15 @@
     "opera_house": "Opera national de Paris",
     "start_date": "2026-10-08",
     "title": "Götterdämmerung",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Opéra Bastille"
+  },
+  {
+    "end_date": "2026-10-09",
+    "key": "Opera national de Paris|Hamlet|2026-09-18",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-09-18",
+    "title": "Hamlet",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Opéra Bastille"
   },
@@ -3526,5 +3517,14 @@
     "title": "Götterdämmerung (RING Festival)",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Opéra Bastille"
+  },
+  {
+    "end_date": "2026-12-25",
+    "key": "Opera national de Paris|La Clemenza di Tito|2026-11-24",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-11-24",
+    "title": "La Clemenza di Tito",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Palais Garnier"
   }
 ]
