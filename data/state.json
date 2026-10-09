@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Zemlinsky, Béla Bartók)|2026-10-08T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-08T19:00:00",
-    "title": "Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Zemlinsky, Béla Bartók)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|Il Barbiere Di Siviglia (Gioachino Rossini)|2026-10-09T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-09T19:00:00",
@@ -3357,38 +3348,20 @@
     "venue": "Main Stage"
   },
   {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Friends Rehearsals|2026-10-08",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-08",
-    "title": "Friends Rehearsals",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-12-21",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-08",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-08",
-    "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-10-10",
-    "key": "Royal Ballet and Opera|A Centenary Celebration|2026-10-08",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-08",
-    "title": "A Centenary Celebration",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": "2026-12-10",
     "key": "Royal Ballet and Opera|Stages and Cells of Covent Garden|2026-10-09",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-09",
     "title": "Stages and Cells of Covent Garden",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-12-21",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-09",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-09",
+    "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3407,6 +3380,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-09",
     "title": "Parsifal",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|A Centenary Celebration|2026-10-10",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-10",
+    "title": "A Centenary Celebration",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3447,22 +3429,13 @@
     "venue": null
   },
   {
-    "end_date": "2026-10-30",
-    "key": "Opera national de Paris|L'Histoire de Manon|2026-09-28",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-09-28",
-    "title": "L'Histoire de Manon",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Palais Garnier"
-  },
-  {
-    "end_date": "2026-10-18",
-    "key": "Opera national de Paris|Götterdämmerung|2026-10-08",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-10-08",
-    "title": "Götterdämmerung",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Opéra Bastille"
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Friends Rehearsals|2026-10-13",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-13",
+    "title": "Friends Rehearsals",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
   },
   {
     "end_date": "2026-10-09",
@@ -3488,6 +3461,24 @@
     "opera_house": "Opera national de Paris",
     "start_date": "2026-10-11",
     "title": "Inner Landscapes",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Palais Garnier"
+  },
+  {
+    "end_date": "2026-10-18",
+    "key": "Opera national de Paris|Götterdämmerung|2026-10-08",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-10-08",
+    "title": "Götterdämmerung",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Opéra Bastille"
+  },
+  {
+    "end_date": "2026-10-30",
+    "key": "Opera national de Paris|L'Histoire de Manon|2026-09-28",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-09-28",
+    "title": "L'Histoire de Manon",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Palais Garnier"
   },
