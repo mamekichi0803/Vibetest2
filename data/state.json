@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Zemlinsky, Béla Bartók)|2026-10-12T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-12T19:00:00",
-    "title": "Eine Floren­Tinische Tragödie/ Bluebeard'S Castle (Alexander Zemlinsky, Béla Bartók)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|Il Barbiere Di Siviglia (Gioachino Rossini)|2026-10-13T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-13T19:00:00",
@@ -3303,38 +3294,29 @@
     "venue": "Main Stage"
   },
   {
-    "end_date": "2026-12-31",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-12",
+    "end_date": "2026-10-17",
+    "key": "Royal Ballet and Opera|Parsifal|2026-10-14",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-12",
-    "title": "Behind the Scenes Tour",
+    "start_date": "2026-10-14",
+    "title": "Parsifal",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
-    "end_date": "2026-12-21",
-    "key": "Royal Ballet and Opera|Recitals at Lunch|2026-10-12",
+    "end_date": "2026-11-25",
+    "key": "Royal Ballet and Opera|Manon|2026-10-13",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-12",
-    "title": "Recitals at Lunch",
+    "start_date": "2026-10-13",
+    "title": "Manon",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
-    "end_date": "2026-11-27",
-    "key": "Royal Ballet and Opera|Exhibition Tours|2026-10-12",
+    "end_date": "2026-10-25",
+    "key": "Royal Ballet and Opera|4.48 Psychosis|2026-10-17",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-12",
-    "title": "Exhibition Tours",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-10-15",
-    "key": "Royal Ballet and Opera|Don Giovanni|2026-10-12",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-12",
-    "title": "Don Giovanni",
+    "start_date": "2026-10-17",
+    "title": "4.48 Psychosis",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3357,20 +3339,20 @@
     "venue": null
   },
   {
-    "end_date": "2026-11-25",
-    "key": "Royal Ballet and Opera|Manon|2026-10-13",
+    "end_date": "2026-12-31",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-13",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-13",
-    "title": "Manon",
+    "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
-    "end_date": "2026-10-17",
-    "key": "Royal Ballet and Opera|Parsifal|2026-10-14",
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Don Giovanni|2026-10-15",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-14",
-    "title": "Parsifal",
+    "start_date": "2026-10-15",
+    "title": "Don Giovanni",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3384,11 +3366,20 @@
     "venue": null
   },
   {
-    "end_date": "2026-10-25",
-    "key": "Royal Ballet and Opera|4.48 Psychosis|2026-10-17",
+    "end_date": "2026-11-27",
+    "key": "Royal Ballet and Opera|Exhibition Tours|2026-10-16",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-17",
-    "title": "4.48 Psychosis",
+    "start_date": "2026-10-16",
+    "title": "Exhibition Tours",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-11-29",
+    "key": "Royal Ballet and Opera|Family Sundays|2026-10-18",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-18",
+    "title": "Family Sundays",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
