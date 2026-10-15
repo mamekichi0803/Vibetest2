@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Carmen (Georges Bizet)|2026-10-14T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-14T19:00:00",
-    "title": "Carmen (Georges Bizet)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|Die Entführung Aus Dem Serail (Wolfgang Amadeus Mozart)|2026-10-15T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-15T19:00:00",
@@ -3285,10 +3276,10 @@
     "venue": "Main Stage"
   },
   {
-    "end_date": "2026-10-17",
-    "key": "Royal Ballet and Opera|Parsifal|2026-10-14",
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Parsifal|2026-10-17",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-14",
+    "start_date": "2026-10-17",
     "title": "Parsifal",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
@@ -3313,9 +3304,9 @@
   },
   {
     "end_date": "2026-12-31",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-14",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-15",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-14",
+    "start_date": "2026-10-15",
     "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
@@ -3348,7 +3339,7 @@
     "venue": null
   },
   {
-    "end_date": "2026-11-29",
+    "end_date": null,
     "key": "Royal Ballet and Opera|Family Sundays|2026-10-18",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-18",
@@ -3463,5 +3454,14 @@
     "title": "Turandot",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Opéra Bastille"
+  },
+  {
+    "end_date": "2026-12-20",
+    "key": "Opera national de Paris|Paris Opera Ballet School Demonstrations|2026-12-05",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-12-05",
+    "title": "Paris Opera Ballet School Demonstrations",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Palais Garnier"
   }
 ]
