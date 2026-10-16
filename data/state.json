@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Die Entführung Aus Dem Serail (Wolfgang Amadeus Mozart)|2026-10-15T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-15T19:00:00",
-    "title": "Die Entführung Aus Dem Serail (Wolfgang Amadeus Mozart)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|Il Barbiere Di Siviglia (Gioachino Rossini)|2026-10-16T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-16T19:00:00",
@@ -3268,6 +3259,276 @@
   },
   {
     "end_date": null,
+    "key": "Wiener Staatsoper|Die Fleder­Maus (Johann Strauss)|2027-01-01T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-01T19:00:00",
+    "title": "Die Fleder­Maus (Johann Strauss)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Swan Lake (Rudolf Nurejew)|2027-01-02T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-02T19:00:00",
+    "title": "Swan Lake (Rudolf Nurejew)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Geheimmission Zauberflöte (Wolfgang Amadeus Mozart, Gerald Resch)|2027-01-03T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-03T19:00:00",
+    "title": "Geheimmission Zauberflöte (Wolfgang Amadeus Mozart, Gerald Resch)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Werther (Jules Massenet)|2027-01-04T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-04T19:00:00",
+    "title": "Werther (Jules Massenet)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Swan Lake (Rudolf Nurejew)|2027-01-05T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-05T19:00:00",
+    "title": "Swan Lake (Rudolf Nurejew)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Geheimmission Zauberflöte (Wolfgang Amadeus Mozart, Gerald Resch)|2027-01-06T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-06T19:00:00",
+    "title": "Geheimmission Zauberflöte (Wolfgang Amadeus Mozart, Gerald Resch)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Werther (Jules Massenet)|2027-01-07T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-07T19:00:00",
+    "title": "Werther (Jules Massenet)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|The Bartered Bride (Bedřich Smetana)|2027-01-08T19:30:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-08T19:30:00",
+    "title": "The Bartered Bride (Bedřich Smetana)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Workshop Ballettakademie (Open Adult Ballet Class)|2027-01-09T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-09T19:00:00",
+    "title": "Workshop Ballettakademie (Open Adult Ballet Class)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Workshop Ballettsaal 1 (Workout In Der Oper)|2027-01-10T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-10T19:00:00",
+    "title": "Workshop Ballettsaal 1 (Workout In Der Oper)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|The Bartered Bride (Bedřich Smetana)|2027-01-11T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-11T19:00:00",
+    "title": "The Bartered Bride (Bedřich Smetana)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Fidelio (Ludwig Van Beethoven)|2027-01-12T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-12T19:00:00",
+    "title": "Fidelio (Ludwig Van Beethoven)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Werther (Jules Massenet)|2027-01-13T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-13T19:00:00",
+    "title": "Werther (Jules Massenet)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|The Bartered Bride (Bedřich Smetana)|2027-01-14T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-14T19:00:00",
+    "title": "The Bartered Bride (Bedřich Smetana)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Fidelio (Ludwig Van Beethoven)|2027-01-15T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-15T19:00:00",
+    "title": "Fidelio (Ludwig Van Beethoven)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|16 Jan (Sat)|2027-01-16T11:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-16T11:00:00",
+    "title": "16 Jan (Sat)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Concert Gustav-Mahler-Saal (Chamber Music)|2027-01-16T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-16T19:00:00",
+    "title": "Concert Gustav-Mahler-Saal (Chamber Music)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Don Carlos (Giuseppe Verdi)|2027-01-17T17:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-17T17:00:00",
+    "title": "Don Carlos (Giuseppe Verdi)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Fidelio (Ludwig Van Beethoven)|2027-01-18T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-18T19:00:00",
+    "title": "Fidelio (Ludwig Van Beethoven)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Don Giovanni (Wolfgang Amadeus Mozart)|2027-01-19T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-19T19:00:00",
+    "title": "Don Giovanni (Wolfgang Amadeus Mozart)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Don Carlos (Giuseppe Verdi)|2027-01-20T17:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-20T17:00:00",
+    "title": "Don Carlos (Giuseppe Verdi)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Don Giovanni (Wolfgang Amadeus Mozart)|2027-01-21T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-21T19:00:00",
+    "title": "Don Giovanni (Wolfgang Amadeus Mozart)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Living Legacies (George Balanchine, Christopher Wheeldon, Frederick Ashton)|2027-01-22T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-22T19:00:00",
+    "title": "Living Legacies (George Balanchine, Christopher Wheeldon, Frederick Ashton)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Workshop Carlos Kleiber-Probebühne (Impulse)|2027-01-23T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-23T19:00:00",
+    "title": "Workshop Carlos Kleiber-Probebühne (Impulse)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Don Carlos (Giuseppe Verdi)|2027-01-24T17:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-24T17:00:00",
+    "title": "Don Carlos (Giuseppe Verdi)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Concert Main Stage (Recital Jonas Kaufmann)|2027-01-26T20:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-26T20:00:00",
+    "title": "Concert Main Stage (Recital Jonas Kaufmann)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Don Carlos (Giuseppe Verdi)|2027-01-27T17:30:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-27T17:30:00",
+    "title": "Don Carlos (Giuseppe Verdi)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Don Giovanni (Wolfgang Amadeus Mozart)|2027-01-28T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-28T19:00:00",
+    "title": "Don Giovanni (Wolfgang Amadeus Mozart)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|29 Jan (Fri)|2027-01-29T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-29T19:00:00",
+    "title": "29 Jan (Fri)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|30 Jan (Sat)|2027-01-30T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-01-30T19:00:00",
+    "title": "30 Jan (Sat)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
     "key": "Wiener Staatsoper|31 Jan (Sun)|2027-01-31T14:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2027-01-31T14:00:00",
@@ -3303,29 +3564,20 @@
     "venue": null
   },
   {
-    "end_date": "2026-12-31",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-15",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-15",
-    "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Don Giovanni|2026-10-15",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-15",
-    "title": "Don Giovanni",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": "2026-12-20",
     "key": "Royal Ballet and Opera|Tea and Tour|2026-10-16",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-16",
     "title": "Tea and Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-12-31",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-16",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-16",
+    "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3366,13 +3618,13 @@
     "venue": null
   },
   {
-    "end_date": "2026-10-30",
-    "key": "Opera national de Paris|L'Histoire de Manon|2026-09-28",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-09-28",
-    "title": "L'Histoire de Manon",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Palais Garnier"
+    "end_date": null,
+    "key": "Royal Ballet and Opera|The Metropolitan Opera: Macbeth|2026-10-20",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-20",
+    "title": "The Metropolitan Opera: Macbeth",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
   },
   {
     "end_date": "2026-11-07",
@@ -3380,6 +3632,15 @@
     "opera_house": "Opera national de Paris",
     "start_date": "2026-10-11",
     "title": "Inner Landscapes",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Palais Garnier"
+  },
+  {
+    "end_date": "2026-10-30",
+    "key": "Opera national de Paris|L'Histoire de Manon|2026-09-28",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-09-28",
+    "title": "L'Histoire de Manon",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Palais Garnier"
   },
