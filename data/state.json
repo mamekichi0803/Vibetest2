@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Il Barbiere Di Siviglia (Gioachino Rossini)|2026-10-16T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-16T19:00:00",
-    "title": "Il Barbiere Di Siviglia (Gioachino Rossini)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|17 Oct (Sat)|2026-10-17T15:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-17T15:00:00",
@@ -3547,9 +3538,9 @@
   },
   {
     "end_date": "2026-11-25",
-    "key": "Royal Ballet and Opera|Manon|2026-10-16",
+    "key": "Royal Ballet and Opera|Manon|2026-10-19",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-16",
+    "start_date": "2026-10-19",
     "title": "Manon",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
@@ -3564,29 +3555,11 @@
     "venue": null
   },
   {
-    "end_date": "2026-12-20",
-    "key": "Royal Ballet and Opera|Tea and Tour|2026-10-16",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-16",
-    "title": "Tea and Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": "2026-12-31",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-16",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-17",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-16",
+    "start_date": "2026-10-17",
     "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-11-27",
-    "key": "Royal Ballet and Opera|Exhibition Tours|2026-10-16",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-16",
-    "title": "Exhibition Tours",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3623,6 +3596,24 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-20",
     "title": "The Metropolitan Opera: Macbeth",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-12-10",
+    "key": "Royal Ballet and Opera|Stages and Cells of Covent Garden|2026-10-23",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-23",
+    "title": "Stages and Cells of Covent Garden",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Live at Lunch|2026-10-23",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-23",
+    "title": "Live at Lunch",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
