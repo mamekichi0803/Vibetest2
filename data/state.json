@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|18 Oct (Sun)|2026-10-18T11:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-18T11:00:00",
-    "title": "18 Oct (Sun)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|19 Oct (Mon)|2026-10-19T11:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-19T11:00:00",
@@ -3259,10 +3250,10 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Geheimmission Zauberflöte (Wolfgang Amadeus Mozart, Gerald Resch)|2027-01-03T19:00:00",
+    "key": "Wiener Staatsoper|03 Jan (Sun)|2027-01-03T11:00:00",
     "opera_house": "Wiener Staatsoper",
-    "start_date": "2027-01-03T19:00:00",
-    "title": "Geheimmission Zauberflöte (Wolfgang Amadeus Mozart, Gerald Resch)",
+    "start_date": "2027-01-03T11:00:00",
+    "title": "03 Jan (Sun)",
     "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
     "venue": "Main Stage"
   },
@@ -3286,10 +3277,10 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Geheimmission Zauberflöte (Wolfgang Amadeus Mozart, Gerald Resch)|2027-01-06T19:00:00",
+    "key": "Wiener Staatsoper|06 Jan (Wed)|2027-01-06T11:00:00",
     "opera_house": "Wiener Staatsoper",
-    "start_date": "2027-01-06T19:00:00",
-    "title": "Geheimmission Zauberflöte (Wolfgang Amadeus Mozart, Gerald Resch)",
+    "start_date": "2027-01-06T11:00:00",
+    "title": "06 Jan (Wed)",
     "url": "https://www.wiener-staatsoper.at/en/calendar/2027/january/",
     "venue": "Main Stage"
   },
@@ -3537,24 +3528,6 @@
     "venue": null
   },
   {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Family Sundays|2026-10-18",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-18",
-    "title": "Family Sundays",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Opera on the Terrace|2026-10-18",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-18",
-    "title": "Opera on the Terrace",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": "2026-12-31",
     "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-19",
     "opera_house": "Royal Ballet and Opera",
@@ -3609,6 +3582,24 @@
     "venue": null
   },
   {
+    "end_date": "2026-10-27",
+    "key": "Royal Ballet and Opera|Children's Alice in Wonderland Adventure Tour|2026-10-24",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-24",
+    "title": "Children's Alice in Wonderland Adventure Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-12-20",
+    "key": "Royal Ballet and Opera|Tea and Tour|2026-10-25",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-25",
+    "title": "Tea and Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
     "end_date": "2026-10-30",
     "key": "Opera national de Paris|L'Histoire de Manon|2026-09-28",
     "opera_house": "Opera national de Paris",
@@ -3616,15 +3607,6 @@
     "title": "L'Histoire de Manon",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Palais Garnier"
-  },
-  {
-    "end_date": "2026-10-18",
-    "key": "Opera national de Paris|Götterdämmerung|2026-10-08",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-10-08",
-    "title": "Götterdämmerung",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Opéra Bastille"
   },
   {
     "end_date": "2026-11-07",
