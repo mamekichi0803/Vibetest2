@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|20 Oct (Tue)|2026-10-20T10:30:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-20T10:30:00",
-    "title": "20 Oct (Tue)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|21 Oct (Wed)|2026-10-21T14:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-21T14:00:00",
@@ -3502,37 +3493,28 @@
   },
   {
     "end_date": "2026-11-25",
-    "key": "Royal Ballet and Opera|Manon|2026-10-20",
+    "key": "Royal Ballet and Opera|Manon|2026-10-22",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-20",
+    "start_date": "2026-10-22",
     "title": "Manon",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
     "end_date": "2026-10-25",
-    "key": "Royal Ballet and Opera|4.48 Psychosis|2026-10-20",
+    "key": "Royal Ballet and Opera|4.48 Psychosis|2026-10-22",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-20",
+    "start_date": "2026-10-22",
     "title": "4.48 Psychosis",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
     "end_date": "2026-12-31",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-20",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-21",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-20",
+    "start_date": "2026-10-21",
     "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|The Metropolitan Opera: Macbeth|2026-10-20",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-20",
-    "title": "The Metropolitan Opera: Macbeth",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3587,6 +3569,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-25",
     "title": "Tea and Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Recitals at Lunch|2026-10-26",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-26",
+    "title": "Recitals at Lunch",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
