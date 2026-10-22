@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|21 Oct (Wed)|2026-10-21T14:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-21T14:00:00",
-    "title": "21 Oct (Wed)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|Nijinsky (John Neumeier)|2026-10-22T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-22T19:00:00",
@@ -3511,9 +3502,9 @@
   },
   {
     "end_date": "2026-12-31",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-21",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-22",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-21",
+    "start_date": "2026-10-22",
     "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
