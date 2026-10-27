@@ -1333,9 +1333,9 @@
   },
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Mimì & Teo And… The Double Bass Princess|2027-04-18T14:30:00",
+    "key": "Teatro alla Scala|Mimì & Teo And… The Double Bass Princess|2027-04-18T15:00:00",
     "opera_house": "Teatro alla Scala",
-    "start_date": "2027-04-18T14:30:00",
+    "start_date": "2027-04-18T15:00:00",
     "title": "Mimì & Teo And… The Double Bass Princess",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala"
@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|26 Oct (Mon)|2026-10-26T11:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-26T11:00:00",
-    "title": "26 Oct (Mon)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|Nijinsky (John Neumeier)|2026-10-27T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-27T19:00:00",
@@ -3457,51 +3448,15 @@
   },
   {
     "end_date": "2026-11-25",
-    "key": "Royal Ballet and Opera|Manon|2026-10-26",
+    "key": "Royal Ballet and Opera|Manon|2026-10-27",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-26",
+    "start_date": "2026-10-27",
     "title": "Manon",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
-    "end_date": "2026-10-27",
-    "key": "Royal Ballet and Opera|Children's Alice in Wonderland Adventure Tour|2026-10-26",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-26",
-    "title": "Children's Alice in Wonderland Adventure Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-12-31",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-26",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-26",
-    "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Recitals at Lunch|2026-10-26",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-26",
-    "title": "Recitals at Lunch",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-12-17",
-    "key": "Royal Ballet and Opera|Architecture Tour|2026-10-26",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-26",
-    "title": "Architecture Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-12-01",
     "key": "Royal Ballet and Opera|Thurrock Workshop Tour|2026-10-27",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-27",
@@ -3515,6 +3470,33 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-27",
     "title": "Friends Rehearsals",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-27",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-27",
+    "title": "Behind the Scenes Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Children's Alice in Wonderland Adventure Tour|2026-10-27",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-27",
+    "title": "Children's Alice in Wonderland Adventure Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Architecture Tour|2026-10-27",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-27",
+    "title": "Architecture Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3542,6 +3524,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-29",
     "title": "Barbie | Royal Ballet – Storytelling",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-11-21",
+    "key": "Royal Ballet and Opera|Carmen|2026-10-29",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-29",
+    "title": "Carmen",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
