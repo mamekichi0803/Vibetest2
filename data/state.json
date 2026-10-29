@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|L'Orfeo (Claudio Monteverdi)|2026-10-28T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-28T19:00:00",
-    "title": "L'Orfeo (Claudio Monteverdi)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|Otello (Giuseppe Verdi)|2026-10-29T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-29T19:00:00",
@@ -3439,28 +3430,10 @@
   },
   {
     "end_date": "2026-11-25",
-    "key": "Royal Ballet and Opera|Manon|2026-10-28",
+    "key": "Royal Ballet and Opera|Manon|2026-10-30",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-28",
+    "start_date": "2026-10-30",
     "title": "Manon",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-10-31",
-    "key": "Royal Ballet and Opera|Barbie | Royal Ballet Craft Activities|2026-10-28",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-28",
-    "title": "Barbie | Royal Ballet Craft Activities",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-12-31",
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-28",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-28",
-    "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3470,6 +3443,24 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-10-29",
     "title": "World Ballet Day",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-10-31",
+    "key": "Royal Ballet and Opera|Barbie | Royal Ballet Craft Activities|2026-10-29",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-29",
+    "title": "Barbie | Royal Ballet Craft Activities",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-12-31",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-29",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-29",
+    "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3528,15 +3519,6 @@
     "venue": null
   },
   {
-    "end_date": "2026-11-05",
-    "key": "Opera national de Paris|Il Barbiere di Siviglia|2026-09-12",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-09-12",
-    "title": "Il Barbiere di Siviglia",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Opéra Bastille"
-  },
-  {
     "end_date": "2026-10-30",
     "key": "Opera national de Paris|L'Histoire de Manon|2026-09-28",
     "opera_house": "Opera national de Paris",
@@ -3553,6 +3535,15 @@
     "title": "Inner Landscapes",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Palais Garnier"
+  },
+  {
+    "end_date": "2026-11-05",
+    "key": "Opera national de Paris|Il Barbiere di Siviglia|2026-09-12",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-09-12",
+    "title": "Il Barbiere di Siviglia",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Opéra Bastille"
   },
   {
     "end_date": "2026-11-15",
