@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Nijinsky (John Neumeier)|2026-10-30T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-10-30T19:00:00",
-    "title": "Nijinsky (John Neumeier)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|31 Oct (Sat)|2026-10-31T11:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-10-31T11:00:00",
@@ -3421,73 +3412,10 @@
   },
   {
     "end_date": "2026-11-25",
-    "key": "Royal Ballet and Opera|Manon|2026-10-30",
+    "key": "Royal Ballet and Opera|Manon|2026-11-05",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-30",
+    "start_date": "2026-11-05",
     "title": "Manon",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Tea and Tour|2026-10-30",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-30",
-    "title": "Tea and Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-12-10",
-    "key": "Royal Ballet and Opera|Stages and Cells of Covent Garden|2026-10-30",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-30",
-    "title": "Stages and Cells of Covent Garden",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-10-31",
-    "key": "Royal Ballet and Opera|Barbie | Royal Ballet Craft Activities|2026-10-30",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-30",
-    "title": "Barbie | Royal Ballet Craft Activities",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-10-30",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-30",
-    "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Barbie | Royal Ballet – Storytelling|2026-10-30",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-30",
-    "title": "Barbie | Royal Ballet – Storytelling",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Exhibition Tours|2026-10-30",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-30",
-    "title": "Exhibition Tours",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-10-31",
-    "key": "Royal Ballet and Opera|Barbie™ in The Nutcracker screening|2026-10-30",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-10-30",
-    "title": "Barbie™ in The Nutcracker screening",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3501,6 +3429,42 @@
     "venue": null
   },
   {
+    "end_date": "2026-11-28",
+    "key": "Royal Ballet and Opera|Visionaries: Robbins and MacMillan|2026-11-09",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-11-09",
+    "title": "Visionaries: Robbins and MacMillan",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": "2026-12-18",
+    "key": "Royal Ballet and Opera|Un ballo in maschera (A Masked Ball)|2026-11-30",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-11-30",
+    "title": "Un ballo in maschera (A Masked Ball)",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Barbie | Royal Ballet Craft Activities|2026-10-31",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-31",
+    "title": "Barbie | Royal Ballet Craft Activities",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Barbie™ in The Nutcracker screening|2026-10-31",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-10-31",
+    "title": "Barbie™ in The Nutcracker screening",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
     "end_date": null,
     "key": "Royal Ballet and Opera|Dish from Waitrose|2026-11-01",
     "opera_house": "Royal Ballet and Opera",
@@ -3510,13 +3474,31 @@
     "venue": null
   },
   {
-    "end_date": "2026-10-30",
-    "key": "Opera national de Paris|L'Histoire de Manon|2026-09-28",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-09-28",
-    "title": "L'Histoire de Manon",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Palais Garnier"
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Tea Dance|2026-11-02",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-11-02",
+    "title": "Tea Dance",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Recitals at Lunch|2026-11-02",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-11-02",
+    "title": "Recitals at Lunch",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-02",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-11-02",
+    "title": "Behind the Scenes Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
   },
   {
     "end_date": "2026-11-07",
