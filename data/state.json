@@ -2566,15 +2566,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|01 Nov (Sun)|2026-11-01T11:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-11-01T11:00:00",
-    "title": "01 Nov (Sun)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|02 Nov (Mon)|2026-11-02T10:30:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-11-02T10:30:00",
@@ -3502,15 +3493,6 @@
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Dish from Waitrose|2026-11-01",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-01",
-    "title": "Dish from Waitrose",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
     "key": "Royal Ballet and Opera|Tea Dance|2026-11-02",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-11-02",
@@ -3555,13 +3537,13 @@
     "venue": null
   },
   {
-    "end_date": "2026-11-05",
-    "key": "Opera national de Paris|Il Barbiere di Siviglia|2026-09-12",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-09-12",
-    "title": "Il Barbiere di Siviglia",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Opéra Bastille"
+    "end_date": "2026-12-17",
+    "key": "Royal Ballet and Opera|Architecture Tour|2026-11-05",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-11-05",
+    "title": "Architecture Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
   },
   {
     "end_date": "2026-11-07",
@@ -3571,6 +3553,15 @@
     "title": "Inner Landscapes",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Palais Garnier"
+  },
+  {
+    "end_date": "2026-11-05",
+    "key": "Opera national de Paris|Il Barbiere di Siviglia|2026-09-12",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-09-12",
+    "title": "Il Barbiere di Siviglia",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Opéra Bastille"
   },
   {
     "end_date": "2026-11-15",
