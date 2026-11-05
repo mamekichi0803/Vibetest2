@@ -208,15 +208,6 @@
   },
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Otello - Under30 Preview|2026-11-04T18:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-04T18:00:00",
-    "title": "Otello - Under30 Preview",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|L'Elisir D'Amore For Children|2026-11-06T11:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-06T11:00:00",
@@ -2521,15 +2512,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|04 Nov (Wed)|2026-11-04T10:30:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-11-04T10:30:00",
-    "title": "04 Nov (Wed)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|Otello (Giuseppe Verdi)|2026-11-05T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-11-05T19:00:00",
@@ -3402,15 +3384,6 @@
     "venue": null
   },
   {
-    "end_date": null,
-    "key": "Wiener Staatsoper|Musiktheater Nest (Migranten­Express)|2027-02-16T19:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2027-02-16T19:00:00",
-    "title": "Musiktheater Nest (Migranten­Express)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
-    "venue": "Main Stage"
-  },
-  {
     "end_date": "2026-11-25",
     "key": "Royal Ballet and Opera|Manon|2026-11-05",
     "opera_house": "Royal Ballet and Opera",
@@ -3421,9 +3394,9 @@
   },
   {
     "end_date": "2026-11-21",
-    "key": "Royal Ballet and Opera|Carmen|2026-11-04",
+    "key": "Royal Ballet and Opera|Carmen|2026-11-08",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-04",
+    "start_date": "2026-11-08",
     "title": "Carmen",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
@@ -3448,24 +3421,15 @@
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-04",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-05",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-04",
+    "start_date": "2026-11-05",
     "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Madam|2026-11-04",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-04",
-    "title": "Madam",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": "2026-12-17",
     "key": "Royal Ballet and Opera|Architecture Tour|2026-11-05",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-11-05",
@@ -3474,7 +3438,7 @@
     "venue": null
   },
   {
-    "end_date": "2026-12-10",
+    "end_date": null,
     "key": "Royal Ballet and Opera|Stages and Cells of Covent Garden|2026-11-08",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-11-08",
@@ -3501,13 +3465,13 @@
     "venue": null
   },
   {
-    "end_date": "2026-11-07",
-    "key": "Opera national de Paris|Inner Landscapes|2026-10-11",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-10-11",
-    "title": "Inner Landscapes",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Palais Garnier"
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Elaine Mitchener – LATE JOYS|2026-11-09",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-11-09",
+    "title": "Elaine Mitchener – LATE JOYS",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
   },
   {
     "end_date": "2026-11-05",
@@ -3517,6 +3481,15 @@
     "title": "Il Barbiere di Siviglia",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Opéra Bastille"
+  },
+  {
+    "end_date": "2026-11-07",
+    "key": "Opera national de Paris|Inner Landscapes|2026-10-11",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-10-11",
+    "title": "Inner Landscapes",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Palais Garnier"
   },
   {
     "end_date": "2026-11-15",
