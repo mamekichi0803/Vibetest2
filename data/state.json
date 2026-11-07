@@ -199,24 +199,6 @@
   },
   {
     "end_date": null,
-    "key": "Teatro alla Scala|L'Elisir D'Amore For Children|2026-11-06T11:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-06T11:00:00",
-    "title": "L'Elisir D'Amore For Children",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|L'Elisir D'Amore For Children|2026-11-06T15:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-06T15:00:00",
-    "title": "L'Elisir D'Amore For Children",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|Otello - Opening Night (7 December)|2026-11-07T18:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-07T18:00:00",
@@ -2494,15 +2476,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|06 Nov (Fri)|2026-11-06T10:30:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-11-06T10:30:00",
-    "title": "06 Nov (Fri)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|07 Nov (Sat)|2026-11-07T15:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-11-07T15:00:00",
@@ -3313,19 +3286,91 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Die Zauber­Flöte Für Kinder (Wolfgang Amadeus Mozart)|2027-02-05T17:00:00",
+    "key": "Wiener Staatsoper|Living Legacies (George Balanchine, Christopher Wheeldon, Frederick Ashton)|2027-02-01T18:30:00",
     "opera_house": "Wiener Staatsoper",
-    "start_date": "2027-02-05T17:00:00",
-    "title": "Die Zauber­Flöte Für Kinder (Wolfgang Amadeus Mozart)",
+    "start_date": "2027-02-01T18:30:00",
+    "title": "Living Legacies (George Balanchine, Christopher Wheeldon, Frederick Ashton)",
     "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
     "venue": "Main Stage"
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Der Rosen­Kavalier (Richard Strauss)|2027-02-12T19:00:00",
+    "key": "Wiener Staatsoper|05 Feb (Fri)|2027-02-05T14:30:00",
     "opera_house": "Wiener Staatsoper",
-    "start_date": "2027-02-12T19:00:00",
+    "start_date": "2027-02-05T14:30:00",
+    "title": "05 Feb (Fri)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Living Legacies (George Balanchine, Christopher Wheeldon, Frederick Ashton)|2027-02-06T20:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-06T20:00:00",
+    "title": "Living Legacies (George Balanchine, Christopher Wheeldon, Frederick Ashton)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Living Legacies (George Balanchine, Christopher Wheeldon, Frederick Ashton)|2027-02-07T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-07T19:00:00",
+    "title": "Living Legacies (George Balanchine, Christopher Wheeldon, Frederick Ashton)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Der Rosen­Kavalier (Richard Strauss)|2027-02-08T17:30:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-08T17:30:00",
     "title": "Der Rosen­Kavalier (Richard Strauss)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Turandot (Giacomo Puccini)|2027-02-10T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-10T19:00:00",
+    "title": "Turandot (Giacomo Puccini)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Living Legacies (George Balanchine, Christopher Wheeldon, Frederick Ashton)|2027-02-11T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-11T19:00:00",
+    "title": "Living Legacies (George Balanchine, Christopher Wheeldon, Frederick Ashton)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|12 Feb (Fri)|2027-02-12T18:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-12T18:00:00",
+    "title": "12 Feb (Fri)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|13 Feb (Sat)|2027-02-13T15:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-13T15:00:00",
+    "title": "13 Feb (Sat)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Concert Gustav-Mahler-Saal (Matinee Of The Opera Studio)|2027-02-13T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-13T19:00:00",
+    "title": "Concert Gustav-Mahler-Saal (Matinee Of The Opera Studio)",
     "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
     "venue": "Main Stage"
   },
@@ -3340,10 +3385,10 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|Matinée Main Stage (Matinee Zu Ballo In Maschera)|2027-02-14T19:00:00",
+    "key": "Wiener Staatsoper|14 Feb (Sun)|2027-02-14T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2027-02-14T19:00:00",
-    "title": "Matinée Main Stage (Matinee Zu Ballo In Maschera)",
+    "title": "14 Feb (Sun)",
     "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
     "venue": "Main Stage"
   },
@@ -3366,10 +3411,136 @@
     "venue": null
   },
   {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Musiktheater Nest (Migranten­Express)|2027-02-16T19:30:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-16T19:30:00",
+    "title": "Musiktheater Nest (Migranten­Express)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Turandot (Giacomo Puccini)|2027-02-17T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-17T19:00:00",
+    "title": "Turandot (Giacomo Puccini)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|18 Feb (Thu)|2027-02-18T11:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-18T11:00:00",
+    "title": "18 Feb (Thu)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Der Rosen­Kavalier (Richard Strauss)|2027-02-19T18:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-19T18:00:00",
+    "title": "Der Rosen­Kavalier (Richard Strauss)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|20 Feb (Sat)|2027-02-20T11:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-20T11:00:00",
+    "title": "20 Feb (Sat)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Concert Gustav-Mahler-Saal (Chamber Music)|2027-02-20T19:30:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-20T19:30:00",
+    "title": "Concert Gustav-Mahler-Saal (Chamber Music)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Un Ballo In Maschera (Giuseppe Verdi)|2027-02-21T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-21T19:00:00",
+    "title": "Un Ballo In Maschera (Giuseppe Verdi)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Norma (Vincenzo Bellini)|2027-02-22T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-22T19:00:00",
+    "title": "Norma (Vincenzo Bellini)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Turandot (Giacomo Puccini)|2027-02-23T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-23T19:00:00",
+    "title": "Turandot (Giacomo Puccini)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Un Ballo In Maschera (Giuseppe Verdi)|2027-02-24T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-24T19:00:00",
+    "title": "Un Ballo In Maschera (Giuseppe Verdi)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Norma (Vincenzo Bellini)|2027-02-26T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-26T19:00:00",
+    "title": "Norma (Vincenzo Bellini)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Workshop Carlos Kleiber-Probebühne (Impulse)|2027-02-27T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-27T19:00:00",
+    "title": "Workshop Carlos Kleiber-Probebühne (Impulse)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|28 Feb (Sun)|2027-02-28T11:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-28T11:00:00",
+    "title": "28 Feb (Sun)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Wiener Staatsoper|Workshop Ballettsaal 1 (Workout In Der Oper)|2027-02-28T19:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-28T19:00:00",
+    "title": "Workshop Ballettsaal 1 (Workout In Der Oper)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
     "end_date": "2026-11-25",
-    "key": "Royal Ballet and Opera|Manon|2026-11-06",
+    "key": "Royal Ballet and Opera|Manon|2026-11-07",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-06",
+    "start_date": "2026-11-07",
     "title": "Manon",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
@@ -3403,15 +3574,15 @@
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-06",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-07",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-06",
+    "start_date": "2026-11-07",
     "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
-    "end_date": "2026-12-10",
+    "end_date": null,
     "key": "Royal Ballet and Opera|Stages and Cells of Covent Garden|2026-11-08",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-11-08",
@@ -3456,11 +3627,11 @@
     "venue": null
   },
   {
-    "end_date": "2026-11-15",
-    "key": "Opera national de Paris|Das Rheingold (RING Festival)|2026-11-06",
+    "end_date": "2026-11-17",
+    "key": "Opera national de Paris|Die Walküre (RING Festival)|2026-11-07",
     "opera_house": "Opera national de Paris",
-    "start_date": "2026-11-06",
-    "title": "Das Rheingold (RING Festival)",
+    "start_date": "2026-11-07",
+    "title": "Die Walküre (RING Festival)",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Opéra Bastille"
   },
@@ -3472,15 +3643,6 @@
     "title": "Inner Landscapes",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Palais Garnier"
-  },
-  {
-    "end_date": "2026-11-17",
-    "key": "Opera national de Paris|Die Walküre (RING Festival)|2026-11-07",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-11-07",
-    "title": "Die Walküre (RING Festival)",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Opéra Bastille"
   },
   {
     "end_date": "2026-11-19",
@@ -3497,6 +3659,15 @@
     "opera_house": "Opera national de Paris",
     "start_date": "2026-11-13",
     "title": "Götterdämmerung (RING Festival)",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Opéra Bastille"
+  },
+  {
+    "end_date": "2026-11-15",
+    "key": "Opera national de Paris|Das Rheingold (RING Festival)|2026-11-06",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2026-11-06",
+    "title": "Das Rheingold (RING Festival)",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Opéra Bastille"
   },
