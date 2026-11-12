@@ -1,15 +1,6 @@
 [
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Balanchine Bausch|2026-11-11T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-11T20:00:00",
-    "title": "Balanchine Bausch",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala (Series P Ballet Subs.)"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|Balanchine Bausch|2026-11-12T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-12T20:00:00",
@@ -322,15 +313,6 @@
     "title": "The Nutcracker",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Out Of Subs.)"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|Alexander Soddy / Beethoven, Shostakovich|2026-11-11T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-11T20:00:00",
-    "title": "Alexander Soddy / Beethoven, Shostakovich",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
   },
   {
     "end_date": null,
@@ -2404,15 +2386,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|11 Nov (Wed)|2026-11-11T10:30:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-11-11T10:30:00",
-    "title": "11 Nov (Wed)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|Concert Main Stage (Recital Simon Keenlyside)|2026-11-12T20:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-11-12T20:00:00",
@@ -3421,9 +3394,9 @@
   },
   {
     "end_date": "2026-11-25",
-    "key": "Royal Ballet and Opera|Manon|2026-11-11",
+    "key": "Royal Ballet and Opera|Manon|2026-11-13",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-11",
+    "start_date": "2026-11-13",
     "title": "Manon",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
@@ -3457,19 +3430,10 @@
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-11",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-12",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-11",
+    "start_date": "2026-11-12",
     "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Insights: Un ballo in maschera|2026-11-11",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-11",
-    "title": "Insights: Un ballo in maschera",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3497,6 +3461,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-11-20",
     "title": "Live at Lunch",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Architecture Tour|2026-11-20",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-11-20",
+    "title": "Architecture Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
