@@ -1,15 +1,6 @@
 [
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Balanchine Bausch|2026-11-14T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-14T20:00:00",
-    "title": "Balanchine Bausch",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala (Out Of Subs.)"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|Members Of The Teatro Alla Scala Orchestra|2026-11-15T11:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-15T11:00:00",
@@ -154,33 +145,6 @@
   },
   {
     "end_date": null,
-    "key": "Teatro alla Scala|L'Elisir D'Amore For Children|2026-11-14T11:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-14T11:00:00",
-    "title": "L'Elisir D'Amore For Children",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|L'Elisir D'Amore For Children|2026-11-14T14:30:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-14T14:30:00",
-    "title": "L'Elisir D'Amore For Children",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|Filarmonica Della Scala'S Concert Conducted By Michele Gamba|2026-11-14T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-14T20:00:00",
-    "title": "Filarmonica Della Scala'S Concert Conducted By Michele Gamba",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|The Nutcracker - Under30 Preview|2026-11-15T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-15T20:00:00",
@@ -295,15 +259,6 @@
     "title": "The Nutcracker",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Out Of Subs.)"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|Alexander Soddy / Beethoven, Shostakovich|2026-11-14T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-14T20:00:00",
-    "title": "Alexander Soddy / Beethoven, Shostakovich",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
   },
   {
     "end_date": null,
@@ -2359,24 +2314,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|14 Nov (Sat)|2026-11-14T15:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-11-14T15:00:00",
-    "title": "14 Nov (Sat)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Wiener Staatsoper|14 Nov (Sat)|2026-11-14T15:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-11-14T15:00:00",
-    "title": "14 Nov (Sat)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|15 Nov (Sun)|2026-11-15T11:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-11-15T11:00:00",
@@ -3349,9 +3286,9 @@
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Manon|2026-11-14",
+    "key": "Royal Ballet and Opera|Manon|2026-11-19",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-14",
+    "start_date": "2026-11-19",
     "title": "Manon",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
@@ -3385,19 +3322,19 @@
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-14",
+    "key": "Royal Ballet and Opera|Family Sundays|2026-11-15",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-14",
-    "title": "Behind the Scenes Tour",
+    "start_date": "2026-11-15",
+    "title": "Family Sundays",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Family Sundays|2026-11-15",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-16",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-15",
-    "title": "Family Sundays",
+    "start_date": "2026-11-16",
+    "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3488,6 +3425,15 @@
     "opera_house": "Opera national de Paris",
     "start_date": "2026-12-05",
     "title": "Paris Opera Ballet School Demonstrations",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Palais Garnier"
+  },
+  {
+    "end_date": "2027-01-28",
+    "key": "Opera national de Paris|Glimpses of dance|2027-01-09",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2027-01-09",
+    "title": "Glimpses of dance",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Palais Garnier"
   }
