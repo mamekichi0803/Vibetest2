@@ -1,15 +1,6 @@
 [
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Riccardo Chailly / Bruckner 9|2026-11-16T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-16T20:00:00",
-    "title": "Riccardo Chailly / Bruckner 9",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|Riccardo Chailly / Bruckner 9|2026-11-17T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-17T20:00:00",
@@ -127,15 +118,6 @@
   },
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Otello|2026-11-16T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-16T20:00:00",
-    "title": "Otello",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala (Series B)"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|The Nutcracker|2026-11-17T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-17T20:00:00",
@@ -232,15 +214,6 @@
     "title": "The Nutcracker",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Out Of Subs.)"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|The Nutcracker|2026-11-16T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-16T20:00:00",
-    "title": "The Nutcracker",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala (Series R Ballet Subs.)"
   },
   {
     "end_date": null,
@@ -3277,9 +3250,9 @@
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-16",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-17",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-16",
+    "start_date": "2026-11-17",
     "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
