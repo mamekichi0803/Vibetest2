@@ -1,15 +1,6 @@
 [
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Riccardo Chailly / Bruckner 9|2026-11-17T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-17T20:00:00",
-    "title": "Riccardo Chailly / Bruckner 9",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|Balanchine Bausch|2026-11-18T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-18T20:00:00",
@@ -118,15 +109,6 @@
   },
   {
     "end_date": null,
-    "key": "Teatro alla Scala|The Nutcracker|2026-11-17T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-17T20:00:00",
-    "title": "The Nutcracker",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala (Series Ballet Premiere)"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|The Nutcracker|2026-11-18T14:30:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-18T14:30:00",
@@ -214,15 +196,6 @@
     "title": "The Nutcracker",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Out Of Subs.)"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|Mozart | String Quintets|2026-11-17T11:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-17T11:00:00",
-    "title": "Mozart | String Quintets",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
   },
   {
     "end_date": null,
@@ -2260,15 +2233,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|L'Elisir D'Amore (Gaetano Donizetti)|2026-11-17T20:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-11-17T20:00:00",
-    "title": "L'Elisir D'Amore (Gaetano Donizetti)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|18 Nov (Wed)|2026-11-18T10:30:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-11-18T10:30:00",
@@ -3232,9 +3196,9 @@
   },
   {
     "end_date": "2026-11-28",
-    "key": "Royal Ballet and Opera|Visionaries: Robbins and MacMillan|2026-11-17",
+    "key": "Royal Ballet and Opera|Visionaries: Robbins and MacMillan|2026-11-20",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-17",
+    "start_date": "2026-11-20",
     "title": "Visionaries: Robbins and MacMillan",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
@@ -3250,9 +3214,9 @@
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-17",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-18",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-17",
+    "start_date": "2026-11-18",
     "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
@@ -3292,15 +3256,6 @@
     "title": "Sip and Sketch: Costume Design Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
-  },
-  {
-    "end_date": "2026-11-17",
-    "key": "Opera national de Paris|Die Walküre (RING Festival)|2026-11-07",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-11-07",
-    "title": "Die Walküre (RING Festival)",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Opéra Bastille"
   },
   {
     "end_date": "2026-11-19",
@@ -3355,5 +3310,14 @@
     "title": "Glimpses of dance",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Palais Garnier"
+  },
+  {
+    "end_date": "2027-02-27",
+    "key": "Opera national de Paris|Il Trovatore|2027-01-16",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2027-01-16",
+    "title": "Il Trovatore",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Opéra Bastille"
   }
 ]
