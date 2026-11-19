@@ -1,15 +1,6 @@
 [
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Balanchine Bausch|2026-11-18T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-18T20:00:00",
-    "title": "Balanchine Bausch",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala (Series M Mini Subs.)"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|Balanchine Bausch|2026-11-19T14:30:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-19T14:30:00",
@@ -109,24 +100,6 @@
   },
   {
     "end_date": null,
-    "key": "Teatro alla Scala|The Nutcracker|2026-11-18T14:30:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-18T14:30:00",
-    "title": "The Nutcracker",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|The Nutcracker|2026-11-18T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-18T20:00:00",
-    "title": "The Nutcracker",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala (Out Of Subs.)"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|Otello|2026-11-19T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-19T20:00:00",
@@ -196,33 +169,6 @@
     "title": "The Nutcracker",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala (Out Of Subs.)"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|L'Elisir D'Amore For Children|2026-11-18T11:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-18T11:00:00",
-    "title": "L'Elisir D'Amore For Children",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|L'Elisir D'Amore For Children|2026-11-18T14:30:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-18T14:30:00",
-    "title": "L'Elisir D'Amore For Children",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|Filarmonica Della Scala'S Concert Conducted By Riccardo Chailly|2026-11-18T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-18T20:00:00",
-    "title": "Filarmonica Della Scala'S Concert Conducted By Riccardo Chailly",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
   },
   {
     "end_date": null,
@@ -2233,15 +2179,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|18 Nov (Wed)|2026-11-18T10:30:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-11-18T10:30:00",
-    "title": "18 Nov (Wed)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|19 Nov (Thu)|2026-11-19T11:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-11-19T11:00:00",
@@ -3186,10 +3123,10 @@
     "venue": null
   },
   {
-    "end_date": "2026-11-21",
-    "key": "Royal Ballet and Opera|Carmen|2026-11-18",
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Carmen|2026-11-21",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-18",
+    "start_date": "2026-11-21",
     "title": "Carmen",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
@@ -3214,9 +3151,9 @@
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-18",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-19",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-18",
+    "start_date": "2026-11-19",
     "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
@@ -3249,11 +3186,11 @@
     "venue": null
   },
   {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Sip and Sketch: Costume Design Tour|2026-11-21",
+    "end_date": "2026-12-12",
+    "key": "Royal Ballet and Opera|Tinsel and Tales: Stories around the Tree|2026-11-21",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-11-21",
-    "title": "Sip and Sketch: Costume Design Tour",
+    "title": "Tinsel and Tales: Stories around the Tree",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
