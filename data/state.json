@@ -1,24 +1,6 @@
 [
   {
     "end_date": null,
-    "key": "Teatro alla Scala|Balanchine Bausch|2026-11-19T14:30:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-19T14:30:00",
-    "title": "Balanchine Bausch",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|Balanchine Bausch|2026-11-19T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-19T20:00:00",
-    "title": "Balanchine Bausch",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala (Series O Mini Subs.)"
-  },
-  {
-    "end_date": null,
     "key": "Teatro alla Scala|Riccardo Chailly / Bruckner 9|2026-11-20T20:00:00",
     "opera_house": "Teatro alla Scala",
     "start_date": "2026-11-20T20:00:00",
@@ -97,15 +79,6 @@
     "title": "L'Elisir D'Amore For Children",
     "url": "https://www.teatroallascala.org/en/calendar.html",
     "venue": "Teatro alla Scala"
-  },
-  {
-    "end_date": null,
-    "key": "Teatro alla Scala|Otello|2026-11-19T20:00:00",
-    "opera_house": "Teatro alla Scala",
-    "start_date": "2026-11-19T20:00:00",
-    "title": "Otello",
-    "url": "https://www.teatroallascala.org/en/calendar.html",
-    "venue": "Teatro alla Scala (Series D)"
   },
   {
     "end_date": null,
@@ -2179,24 +2152,6 @@
   },
   {
     "end_date": null,
-    "key": "Wiener Staatsoper|19 Nov (Thu)|2026-11-19T11:00:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-11-19T11:00:00",
-    "title": "19 Nov (Thu)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
-    "venue": null
-  },
-  {
-    "end_date": null,
-    "key": "Wiener Staatsoper|Ariadne Auf Naxos (Richard Strauss)|2026-11-19T19:30:00",
-    "opera_house": "Wiener Staatsoper",
-    "start_date": "2026-11-19T19:30:00",
-    "title": "Ariadne Auf Naxos (Richard Strauss)",
-    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
-    "venue": "Main Stage"
-  },
-  {
-    "end_date": null,
     "key": "Wiener Staatsoper|Madama Butterfly (Giacomo Puccini)|2026-11-20T19:00:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2026-11-20T19:00:00",
@@ -2872,6 +2827,15 @@
   },
   {
     "end_date": null,
+    "key": "Wiener Staatsoper|Dress Rehearsal (Vienna Opera Ball)|2027-02-03T20:00:00",
+    "opera_house": "Wiener Staatsoper",
+    "start_date": "2027-02-03T20:00:00",
+    "title": "Dress Rehearsal (Vienna Opera Ball)",
+    "url": "https://www.wiener-staatsoper.at/en/calendar/2027/february/",
+    "venue": "Main Stage"
+  },
+  {
+    "end_date": null,
     "key": "Wiener Staatsoper|05 Feb (Fri)|2027-02-05T14:30:00",
     "opera_house": "Wiener Staatsoper",
     "start_date": "2027-02-05T14:30:00",
@@ -3115,9 +3079,9 @@
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Manon|2026-11-19",
+    "key": "Royal Ballet and Opera|Manon|2026-11-25",
     "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-19",
+    "start_date": "2026-11-25",
     "title": "Manon",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
@@ -3151,15 +3115,6 @@
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-19",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-19",
-    "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
-    "end_date": null,
     "key": "Royal Ballet and Opera|Live at Lunch|2026-11-20",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-11-20",
@@ -3186,6 +3141,15 @@
     "venue": null
   },
   {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-20",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-11-20",
+    "title": "Behind the Scenes Tour",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
     "end_date": "2026-12-12",
     "key": "Royal Ballet and Opera|Tinsel and Tales: Stories around the Tree|2026-11-21",
     "opera_house": "Royal Ballet and Opera",
@@ -3193,15 +3157,6 @@
     "title": "Tinsel and Tales: Stories around the Tree",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
-  },
-  {
-    "end_date": "2026-11-19",
-    "key": "Opera national de Paris|Siegfried (RING Festival)|2026-11-10",
-    "opera_house": "Opera national de Paris",
-    "start_date": "2026-11-10",
-    "title": "Siegfried (RING Festival)",
-    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
-    "venue": "Opéra Bastille"
   },
   {
     "end_date": "2026-11-22",
