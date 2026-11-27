@@ -2907,15 +2907,6 @@
     "venue": null
   },
   {
-    "end_date": null,
-    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-26",
-    "opera_house": "Royal Ballet and Opera",
-    "start_date": "2026-11-26",
-    "title": "Behind the Scenes Tour",
-    "url": "https://www.rbo.org.uk/tickets-and-events",
-    "venue": null
-  },
-  {
     "end_date": "2026-12-10",
     "key": "Royal Ballet and Opera|Stages and Cells of Covent Garden|2026-11-27",
     "opera_house": "Royal Ballet and Opera",
@@ -2935,10 +2926,10 @@
   },
   {
     "end_date": null,
-    "key": "Royal Ballet and Opera|Exhibition Tours|2026-11-27",
+    "key": "Royal Ballet and Opera|Behind the Scenes Tour|2026-11-27",
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-11-27",
-    "title": "Exhibition Tours",
+    "title": "Behind the Scenes Tour",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -2957,6 +2948,15 @@
     "opera_house": "Royal Ballet and Opera",
     "start_date": "2026-11-27",
     "title": "Friends Rehearsals",
+    "url": "https://www.rbo.org.uk/tickets-and-events",
+    "venue": null
+  },
+  {
+    "end_date": null,
+    "key": "Royal Ballet and Opera|Family Sundays|2026-11-29",
+    "opera_house": "Royal Ballet and Opera",
+    "start_date": "2026-11-29",
+    "title": "Family Sundays",
     "url": "https://www.rbo.org.uk/tickets-and-events",
     "venue": null
   },
@@ -3013,5 +3013,14 @@
     "title": "Don Giovanni",
     "url": "https://www.operadeparis.fr/en/programme-and-tickets",
     "venue": "Opéra Bastille"
+  },
+  {
+    "end_date": "2027-02-13",
+    "key": "Opera national de Paris|Katia Kabanova|2027-01-27",
+    "opera_house": "Opera national de Paris",
+    "start_date": "2027-01-27",
+    "title": "Katia Kabanova",
+    "url": "https://www.operadeparis.fr/en/programme-and-tickets",
+    "venue": "Palais Garnier"
   }
 ]
